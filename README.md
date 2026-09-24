@@ -4,6 +4,9 @@ Static control page for the web radio in openHAB. The page itself does not play 
 It sets the switch item for the selected station to `ON`, and an openHAB rule then
 starts the stream on the Sonos device.
 
+![Webradio 1](https://github.com/Michdo93/test2/blob/main/webradio-openhab.png?raw=true)
+![Webradio 2](https://github.com/Michdo93/test2/blob/main/webradio-openhab2.png?raw=true)
+
 ## File Structure (MVC)
 
 ```text
