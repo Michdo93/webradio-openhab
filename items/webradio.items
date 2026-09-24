@@ -1,0 +1,537 @@
+//-----------------------
+//Webradio Konferenz
+//-----------------------
+Group gWebradio "Webradio" <receiver> (gKonferenz_Audio)
+
+Player iWebradio_Steuerung "Webradio Steuerung" <receiver> (gKonferenz_Audio)
+String iWebradio_Sender "Webradio Sender" <receiver> (gKonferenz_Audio)
+String iWebradio_Sender_Text "Webradio Sender Text" <text> (gKonferenz_Audio)
+
+Switch iWebradio_88vier "88vier" (gWebradio) { stream_uri="http://ice.rosebud-media.de:8000/88vier.m3u" }
+Switch iWebradio_Antenne_MV "Antenne MV" (gWebradio) { stream_uri="http://streams.antennemv.de/antennemv-live/mp3-192/amv" }
+Switch iWebradio_Antenne_Thueringen "Antenne Thueringen" (gWebradio) { stream_uri="http://stream.antennethueringen.de/live/mp3-128/" }
+Switch iWebradio_bermuda_funk "bermuda funk" (gWebradio) { stream_uri="http://streaming.fueralle.org:8000/bermudafunk.ogg.m3u" }
+Switch iWebradio_BLACKBEATS_FM "BLACKBEATS FM" (gWebradio) { stream_uri="http://blackbeats.fm/listen.m3u" }
+Switch iWebradio_ByteFM "ByteFM" (gWebradio) { stream_uri="http://www.byte.fm/stream/bytefm.m3u" }
+Switch iWebradio_delta_radio "delta radio" (gWebradio) { stream_uri="http://streams.deltaradio.de/delta-live/mp3-192/mediaplayerdeltaradio" }
+Switch iWebradio_Die_Neue_Welle "Die Neue Welle" (gWebradio) { stream_uri="http://www.meine-neue-welle.de/dnw_128.m3u" }
+Switch iWebradio_eldoradio "eldoradio" (gWebradio) { stream_uri="http://sender.eldoradio.de:8000/128.mp3" }
+Switch iWebradio_ffn_Niedersachsen "ffn Niedersachsen" (gWebradio) { stream_uri="http://player.ffn.de/ffn.mp3" }
+Switch iWebradio_Harmony_FM "Harmony FM" (gWebradio) { stream_uri="http://mp3.harmonyfm.de/harmonyfm/hqlivestream.mp3" }
+Switch iWebradio_Kiss_FM_Berlin "Kiss FM Berlin" (gWebradio) { stream_uri="http://topradio-de-hz-fal-stream09-cluster01.radiohost.de/kissfm_128" }
+Switch iWebradio_Klassik_Radio "Klassik Radio" (gWebradio) { stream_uri="http://stream.klassikradio.de/live/mp3-192/stream.klassikradio.de/" }
+Switch iWebradio_Landeswelle_Thueringen "Landeswelle Thueringen" (gWebradio) { stream_uri="http://stream.landeswelle.de/lwt/mp3-128/web/stream.mp3" }
+Switch iWebradio_LORA_Muenchen_92_4 "LORA Muenchen 92 4" (gWebradio) { stream_uri="http://live.lora924.de:8000/lora-hq.mp3" }
+Switch iWebradio_LOHRO "LOHRO" (gWebradio) { stream_uri="http://stream.lohro.de:8000/lohro_vorbis.ogg" }
+Switch iWebradio_NOXX "NOXX" (gWebradio) { stream_uri="http://stream.lokalradio.nrw/4459jmc" }
+Switch iWebradio_Offener_Hoerfunkkanal_Eisenach "Offener Hoerfunkkanal Eisenach" (gWebradio) { stream_uri="http://tbradio.de/wartburgradio.m3u" }
+Switch iWebradio_Planet_Radio "Planet Radio" (gWebradio) { stream_uri="http://mp3.planetradio.de/planetradio/hqlivestream.mp3" }
+Switch iWebradio_Querfunk "Querfunk" (gWebradio) { stream_uri="http://mp3.querfunk.de/qfhi" }
+Switch iWebradio_Radio_Blau "Radio Blau" (gWebradio) { stream_uri="http://stream.radioblau.de/" }
+Switch iWebradio_Radio_Corax "Radio Corax" (gWebradio) { stream_uri="http://streaming.fueralle.org:8000/corax.mp3.m3u" }
+Switch iWebradio_Radio_Dreyeckland "Radio Dreyeckland" (gWebradio) { stream_uri="http://www.rdl.de:8000/rdl.m3u" }
+Switch iWebradio_Radio_F_94_5_Nuernberg "Radio F 94 5 Nuernberg" (gWebradio) { stream_uri="http://webstream.radiof.de/radiof" }
+Switch iWebradio_Radio_Gong_97_1_Nuernberg "Radio Gong 97 1 Nuernberg" (gWebradio) { stream_uri="http://webstream.gong971.de/gong971" }
+Switch iWebradio_Radio_Mainwelle_Bayreuth_104_3 "Radio Mainwelle Bayreuth 104 3" (gWebradio) { stream_uri="http://webstream.mainwelle.de/radio-mainwelle.mp3" }
+Switch iWebradio_Radio_N1_92_9_Nuernberg "Radio N1 92 9 Nuernberg" (gWebradio) { stream_uri="http://webstream.hitradion1.de/hitradion1" }
+Switch iWebradio_Radio_PSR "Radio PSR" (gWebradio) { stream_uri="http://streams.radiopsr.de/psr-live/mp3-192/listenlive/play.m3u" }
+Switch iWebradio_Radio_StHoerfunk "Radio StHoerfunk" (gWebradio) { stream_uri="http://stream.sthoerfunk.de:7000/sthoerfunk.ogg" }
+Switch iWebradio_Radio_T "Radio T" (gWebradio) { stream_uri="http://streaming.fueralle.org:8000/radiot.mp3" }
+Switch iWebradio_Radio_Z "Radio Z" (gWebradio) { stream_uri="http://snd.radio-z.net:8000/Radio-Z" }
+Switch iWebradio_SachsenAnhalt_Welle "SachsenAnhalt Welle" (gWebradio) { stream_uri="http://stream.radiosaw.de/saw/mp3-128/stream.mp3" }
+
+Group gWebradio_Antenne1 "Hitradio antenne 1" <receiver> (gWebradio)
+
+Switch iWebradio_Antenne1 "Antenne1" (gWebradio_Antenne1) { stream_uri="http://stream.antenne1.de/a1stg/livestream2.mp3?usid=H-M-09-0-0" }
+Switch iWebradio_Antenne1_Live "Antenne1 Live" (gWebradio_Antenne1) { stream_uri="http://stream.antenne1.de/a1stg/livestream2.mp3?usid=H-M-09-0-0" }
+Switch iWebradio_Antenne1_80er "Antenne1 80er" (gWebradio_Antenne1) { stream_uri="http://stream.antenne1.de/80er/livestream2.mp3?usid=H-M-09-0-0" }
+Switch iWebradio_Antenne1_90er "Antenne1 90er" (gWebradio_Antenne1) { stream_uri="http://stream.antenne1.de/90er/livestream2.mp3?usid=H-M-09-0-0" }
+Switch iWebradio_Antenne1_2000er "Antenne1 2000er" (gWebradio_Antenne1) { stream_uri="http://stream.antenne1.de/2000er/livestream2.mp3?usid=H-M-09-0-0" }
+Switch iWebradio_Antenne1_Top40 "Antenne1 Top40" (gWebradio_Antenne1) { stream_uri="http://stream.antenne1.de/top40/livestream2.mp3?usid=H-M-09-0-0" }
+Switch iWebradio_Antenne1_ClassicRock "Antenne1 ClassicRock" (gWebradio_Antenne1) { stream_uri="http://stream.antenne1.de/rock/livestream2.mp3?usid=H-M-09-0-0" }
+Switch iWebradio_Antenne1_ModernRock "Antenne1 ModernRock" (gWebradio_Antenne1) { stream_uri="http://stream.antenne1.de/modernrock/livestream2.mp3?usid=H-M-09-0-0" }
+Switch iWebradio_Antenne1_SoftNLazy "Antenne1 SoftNLazy" (gWebradio_Antenne1) { stream_uri="http://stream.antenne1.de/soft/livestream2.mp3?usid=H-M-09-0-0" }
+Switch iWebradio_Antenne1_WeihnachtsHits "Antenne1 WeihnachtsHits" (gWebradio_Antenne1) { stream_uri="http://stream.antenne1.de/weihnachtshits/livestream2.mp3?usid=H-M-09-0-0" }
+Switch iWebradio_Antenne1_SommerHits "Antenne1 SommerHits" (gWebradio_Antenne1) { stream_uri="http://stream.antenne1.de/sommerhits/livestream2.mp3?usid=H-M-09-0-0" }
+Switch iWebradio_Antenne1_DeutschPop "Antenne1 DeutschPop" (gWebradio_Antenne1) { stream_uri="http://stream.antenne1.de/deutschpop/livestream2.mp3?usid=H-M-09-0-0" }
+Switch iWebradio_Antenne1_PartyKracher "Antenne1 PartyKracher" (gWebradio_Antenne1) { stream_uri="http://stream.antenne1.de/partykracher/livestream2.mp3?usid=H-M-09-0-0" }
+Switch iWebradio_Antenne1_UnpluggedAcoustic "Antenne1 UnpluggedAcoustic" (gWebradio_Antenne1) { stream_uri="http://stream.antenne1.de/unplugged/livestream2.mp3?usid=H-M-09-0-0" }
+Switch iWebradio_Antenne1_Oldies "Antenne1 Oldies" (gWebradio_Antenne1) { stream_uri="http://stream.antenne1.de/oldies/livestream2.mp3?usid=H-M-09-0-0" }
+Switch iWebradio_Antenne1_InTheMix "Antenne1 InTheMix" (gWebradio_Antenne1) { stream_uri="http://stream.antenne1.de/inthemix/livestream2.mp3?usid=H-M-09-0-0" }
+Switch iWebradio_Antenne1_Schlager "Antenne1 Schlager" (gWebradio_Antenne1) { stream_uri="http://stream.antenne1.de/schlager/livestream2.mp3?usid=H-M-09-0-0" }
+
+Group gWebradio_RTL "RTL" <receiver> (gWebradio)
+
+Switch iWebradio_RTL_Berlin "RTL Berlin" (gWebradio_RTL) { stream_uri="http://stream.104.6rtl.com/rtl-live/mp3-192" }
+
+Group gWebradio_Antenne_Bayern "Antenne Bayern" <receiver> (gWebradio)
+
+Switch iWebradio_Antenne_Bayern "Antenne Bayern" (gWebradio_Antenne_Bayern) { stream_uri="http://mp3channels.webradio.antenne.de/antenne" }
+Switch iWebradio_Antenne_Bayern_80er_Kulthits "Antenne Bayern 80er Kulthits" (gWebradio_Antenne_Bayern) { stream_uri="http://mp3channels.webradio.antenne.de/80er-kulthits" }
+Switch iWebradio_Antenne_Bayern_90er_Hits "Antenne Bayern 90er Hits" (gWebradio_Antenne_Bayern) { stream_uri="http://mp3channels.webradio.antenne.de/90er-hits" }
+Switch iWebradio_Antenne_Bayern_Black_Beatz "Antenne Bayern Black Beatz" (gWebradio_Antenne_Bayern) { stream_uri="http://mp3channels.webradio.antenne.de/black-beatz" }
+Switch iWebradio_Antenne_Bayern_Chillout "Antenne Bayern Chillout" (gWebradio_Antenne_Bayern) { stream_uri="http://mp3channels.webradio.antenne.de/chillout" }
+Switch iWebradio_Antenne_Bayern_Classic_Rock_Live "Antenne Bayern Classic Rock Live" (gWebradio_Antenne_Bayern) { stream_uri="http://mp3channels.webradio.antenne.de/classic-rock-live" }
+Switch iWebradio_Antenne_Bayern_Event "Antenne Bayern Event" (gWebradio_Antenne_Bayern) { stream_uri="http://mp3channels.webradio.antenne.de/event" }
+Switch iWebradio_Antenne_Bayern_Fresh "Antenne Bayern Fresh" (gWebradio_Antenne_Bayern) { stream_uri="http://mp3channels.webradio.antenne.de/fresh" }
+Switch iWebradio_Antenne_Bayern_Hits_fuer_Kids "Antenne Bayern Hits fuer Kids" (gWebradio_Antenne_Bayern) { stream_uri="http://mp3channels.webradio.antenne.de/hits-fuer-kids" }
+Switch iWebradio_Antenne_Bayern_Lovesongs "Antenne Bayern Lovesongs" (gWebradio_Antenne_Bayern) { stream_uri="http://mp3channels.webradio.antenne.de/lovesongs" }
+Switch iWebradio_Antenne_Bayern_Oldies_but_Goldies "Antenne Bayern Oldies but Goldies" (gWebradio_Antenne_Bayern) { stream_uri="http://mp3channels.webradio.antenne.de/oldies-but-goldies" }
+Switch iWebradio_Antenne_Bayern_Rockantenne "Antenne Bayern Rockantenne" (gWebradio_Antenne_Bayern) { stream_uri="http://mp3channels.webradio.antenne.de/rockantenne" }
+Switch iWebradio_Antenne_Bayern_Das_Schlager_Karussell "Antenne Bayern Das Schlager Karussell" (gWebradio_Antenne_Bayern) { stream_uri="http://mp3channels.webradio.antenne.de/das-schlager-karussell" }
+Switch iWebradio_Antenne_Bayern_Top40 "Antenne Bayern Top40" (gWebradio_Antenne_Bayern) { stream_uri="http://mp3channels.webradio.antenne.de/top-40" }
+Switch iWebradio_Antenne_Bayern_Weihnachts_Hits "Antenne Bayern Weihnachts Hits" (gWebradio_Antenne_Bayern) { stream_uri="http://mp3channels.webradio.antenne.de/weihnachts-hits" }
+Switch iWebradio_Antenne_Bayern_Workout_Hits "Antenne Bayern Workout Hits" (gWebradio_Antenne_Bayern) { stream_uri="http://mp3channels.webradio.antenne.de/workout-hits" }
+
+Group gWebradio_Bayerischer_Rundfunk "Bayerischer Rundfunk" <receiver> (gWebradio)
+
+Switch iWebradio_Bayern1 "Bayern1" (gWebradio_Bayerischer_Rundfunk) { stream_uri="http://streams.br.de/bayern1_2.m3u" }
+Switch iWebradio_Bayern2 "Bayern2" (gWebradio_Bayerischer_Rundfunk) { stream_uri="http://streams.br.de/bayern2_2.m3u" }
+Switch iWebradio_Bayern3 "Bayern3" (gWebradio_Bayerischer_Rundfunk) { stream_uri="http://streams.br.de/bayern3_2.m3u" }
+Switch iWebradio_BR_Klassik "BR Klassik" (gWebradio_Bayerischer_Rundfunk) { stream_uri="http://streams.br.de/br-klassik_2.m3u" }
+Switch iWebradio_BR24 "BR24" (gWebradio_Bayerischer_Rundfunk) { stream_uri="http://streams.br.de/b5aktuell_2.m3u" }
+Switch iWebradio_BR_Schlager "BR Schlager" (gWebradio_Bayerischer_Rundfunk) { stream_uri="http://streams.br.de/bayernplus_2.m3u" }
+Switch iWebradio_BR_Heimat "BR Heimat" (gWebradio_Bayerischer_Rundfunk) { stream_uri="http://streams.br.de/brheimat_2.m3u" }
+
+Group gWebradio_bigFM "bigFM" <receiver> (gWebradio)
+
+Switch iWebradio_bigFM_Deutschland "bigFM Deutschland" (gWebradio_bigFM) { stream_uri="http://streams.bigfm.de/bigfm-deutschland-128-aac?usid=0-0-H-A-D-30" }
+Switch iWebradio_bigFM_Charts "bigFM Charts" (gWebradio_bigFM) { stream_uri="http://streams.bigfm.de/bigfm-charts-128-aac?usid=0-0-H-A-D-30" }
+Switch iWebradio_bigFM_HipHop "bigFM HipHop" (gWebradio_bigFM) { stream_uri="http://streams.bigfm.de/bigfm-hiphop-128-aac?usid=0-0-H-A-D-30" }
+Switch iWebradio_bigFM_Deutschrap "bigFM Deutschrap" (gWebradio_bigFM) { stream_uri="http://streams.bigfm.de/bigfm-deutschrap-128-aac?usid=0-0-H-A-D-30s" }
+Switch iWebradio_bigFM_US_Rap_And_HipHop "bigFM US Rap And HipHop" (gWebradio_bigFM) { stream_uri="http://streams.bigfm.de/bigfm-usrap-128-aac?usid=0-0-H-A-D-30" }
+Switch iWebradio_bigFM_Oldschool_Rap_And_HipHop "bigFM Oldschool Rap And HipHop" (gWebradio_bigFM) { stream_uri="http://streams.bigfm.de/bigfm-oldschool-128-aac?usid=0-0-H-A-D-30" }
+Switch iWebradio_bigFM_Dance "bigFM Dance" (gWebradio_bigFM) { stream_uri="http://streams.bigfm.de/bigfm-dance-128-aac?usid=0-0-H-A-D-30" }
+Switch iWebradio_bigFM_Mashup "bigFM Mashup" (gWebradio_bigFM) { stream_uri="http://streams.bigfm.de/bigfm-mashup-128-aac?usid=0-0-H-A-D-30" }
+Switch iWebradio_bigFM_Sunset_Lounge "bigFM Sunset Lounge" (gWebradio_bigFM) { stream_uri="http://streams.bigfm.de/bigfm-sunsetlounge-128-aac?usid=0-0-H-A-D-30" }
+Switch iWebradio_bigFM_Reggae_Vibez "bigFM Reggae Vibez" (gWebradio_bigFM) { stream_uri="http://streams.bigfm.de/bigfm-reggaevibes-128-aac?usid=0-0-H-A-D-30" }
+Switch iWebradio_bigFM_Latin_Beats "bigFM Latin Beats" (gWebradio_bigFM) { stream_uri="http://streams.bigfm.de/bigfm-latinbeats-128-aac?usid=0-0-H-A-D-30" }
+Switch iWebradio_bigFM_Groovenight "bigFM Groovenight" (gWebradio_bigFM) { stream_uri="http://streams.bigfm.de/bigfm-groovenight-128-aac?usid=0-0-H-A-D-30" }
+Switch iWebradio_bigFM_Urban_Club_Beats "bigFM Urban Club Beats" (gWebradio_bigFM) { stream_uri="http://streams.bigfm.de/bigfm-urbanclubbeats-128-aac?usid=0-0-H-A-D-30" }
+Switch iWebradio_bigFM_EDM_And_PROGRESSIVE "bigFM EDM And PROGRESSIVE" (gWebradio_bigFM) { stream_uri="http://streams.bigfm.de/bigfm-nitroxedm-128-aac?usid=0-0-H-A-D-30" }
+Switch iWebradio_bigFM_DEEP_And_Tech_House "bigFM DEEP And Tech House" (gWebradio_bigFM) { stream_uri="http://streams.bigfm.de/bigfm-nitroxdeep-128-aac?usid=0-0-H-A-D-30" }
+Switch iWebradio_bigFM_WORLDBEATS "bigFM WORLDBEATS" (gWebradio_bigFM) { stream_uri="http://streams.bigfm.de/bigfm-worldbeats-128-aac?usid=0-0-H-A-D-30" }
+Switch iWebradio_bigFM_TUERKCE_WEB_RADYOSU "bigFM TUERKCE WEB RADYOSU" (gWebradio_bigFM) { stream_uri="http://streams.bigfm.de/bigfm-turkey-128-aac?usid=0-0-H-A-D-30" }
+Switch iWebradio_bigFM_BW "bigFM BW" (gWebradio_bigFM) { stream_uri="http://streams.bigfm.de/bigfm-bw-128-aac?usid=0-0-H-A-D-30" }
+Switch iWebradio_bigFM_RP "bigFM RP" (gWebradio_bigFM) { stream_uri="http://streams.bigfm.de/bigfm-rlp-128-aac?usid=0-0-H-A-D-30" }
+
+Group gWebradio_detektor_fm "detektor.fm" <receiver> (gWebradio)
+
+Switch iWebradio_detektor_fm_Wortstream "detektor fm Wortstream" (gWebradio_detektor_fm) { stream_uri="http://detektor.fm/stream/mp3/wort/" }
+Switch iWebradio_detektor_fm_Musikstream "detektor fm Musikstream" (gWebradio_detektor_fm) { stream_uri="http://detektor.fm/stream/mp3/musik/" }
+
+Group gWebradio_Deutschlandfunk "Deutschlandfunk" <receiver> (gWebradio)
+
+Switch iWebradio_Deutschlandfunk "Deutschlandfunk" (gWebradio_Deutschlandfunk) { stream_uri="https://st01.sslstream.dlf.de/dlf/01/128/mp3/stream.mp3?aggregator=web" }
+Switch iWebradio_Deutschlandfunk_Kultur "Deutschlandfunk Kultur" (gWebradio_Deutschlandfunk) { stream_uri="https://st02.sslstream.dlf.de/dlf/02/128/mp3/stream.mp3?aggregator=web" }
+Switch iWebradio_Deutschlandfunk_Nova "Deutschlandfunk Nova" (gWebradio_Deutschlandfunk) { stream_uri="https://st03.sslstream.dlf.de/dlf/03/128/mp3/stream.mp3?aggregator=web" }
+Switch iWebradio_Deutschlandfunk_Dokumente_und_Debatten "Deutschlandfunk Dokumente und Debatten" (gWebradio_Deutschlandfunk) { stream_uri="https://st04.sslstream.dlf.de/dlf/04/128/mp3/stream.mp3?aggregator=web" }
+
+Group gWebradio_egoFM "egoFM" <receiver> (gWebradio)
+
+
+Group gWebradio_Energy "NRj" <receiver> (gWebradio)
+
+Switch iWebradio_Energy_Berlin "NRj Berlin" (gWebradio_Energy) { stream_uri="http://energyradio.de/berlin" }
+Switch iWebradio_Energy_Hamburg "NRj Hamburg" (gWebradio_Energy) { stream_uri="http://energyradio.de/hamburg" }
+Switch iWebradio_Energy_Nuernberg "NRj Nuernberg" (gWebradio_Energy) { stream_uri="http://energyradio.de/nuernberg" }
+Switch iWebradio_Energy_Stuttgart "NRj Stuttgart" (gWebradio_Energy) { stream_uri="http://energyradio.de/stuttgart" }
+Switch iWebradio_Energy_Muenchen "NRj Muenchen" (gWebradio_Energy) { stream_uri="http://energyradio.de/muenchen" }
+Switch iWebradio_Energy_Sachsen "NRj Sachsen" (gWebradio_Energy) { stream_uri="http://energyradio.de/sachsen" }
+Switch iWebradio_Energy_Bremen "NRj Bremen" (gWebradio_Energy) { stream_uri="http://energyradio.de/bremen" }
+Switch iWebradio_Energy_Dance "NRj Dance" (gWebradio_Energy) { stream_uri="http://energyradio.de/dance" }
+Switch iWebradio_Energy_RNB "NRj RNB" (gWebradio_Energy) { stream_uri="http://energyradio.de/rnb" }
+Switch iWebradio_Energy_Pop "NRj Pop" (gWebradio_Energy) { stream_uri="http://energyradio.de/pop" }
+Switch iWebradio_Energy_Rock "NRj Rock" (gWebradio_Energy) { stream_uri="http://energyradio.de/rock" }
+Switch iWebradio_Energy_Love "NRj Love" (gWebradio_Energy) { stream_uri="http://energyradio.de/love" }
+
+Group gWebradio_FluxFM "FluxFM" <receiver> (gWebradio)
+
+Switch iWebradio_FluxFM "FluxFM" (gWebradio_FluxFM) { stream_uri="http://streams.fluxfm.de/live/mp3-128/audio/" }
+Switch iWebradio_FluxFM_Klubradio "FluxFM Klubradio" (gWebradio_FluxFM) { stream_uri="http://streams.fluxfm.de/klubradio/mp3-128/audio/" }
+Switch iWebradio_FluxFM_BoomFM "FluxFM BoomFM" (gWebradio_FluxFM) { stream_uri="http://streams.fluxfm.de/boomfm/mp3-128/audio/" }
+Switch iWebradio_FluxFM_MetalFM "FluxFM MetalFM" (gWebradio_FluxFM) { stream_uri="http://streams.fluxfm.de/metalfm/mp3-128/radiode/" }
+Switch iWebradio_FluxFM_FluxLounge "FluxFM FluxLounge" (gWebradio_FluxFM) { stream_uri="http://streams.fluxfm.de/lounge/mp3-128/audio/" }
+Switch iWebradio_FluxFM_neoFM "FluxFM neoFM" (gWebradio_FluxFM) { stream_uri="http://streams.fluxfm.de/neofm/mp3-128/radiode/" }
+Switch iWebradio_FluxFM_Riot_Radio "FluxFM Riot Radio" (gWebradio_FluxFM) { stream_uri="http://streams.fluxfm.de/riot/mp3-128/audio/" }
+Switch iWebradio_FluxFM_FluxKompensator "FluxFM FluxKompensator" (gWebradio_FluxFM) { stream_uri="http://streams.fluxfm.de/fluxkompensator/mp3-128/audio/" }
+Switch iWebradio_FluxFM_Clubsandwich "FluxFM Clubsandwich" (gWebradio_FluxFM) { stream_uri="http://streams.fluxfm.de/clubsandwich/mp3-128/audio/" }
+Switch iWebradio_FluxFM_XJAZZ "FluxFM XJAZZ" (gWebradio_FluxFM) { stream_uri="http://streams.fluxfm.de/xjazz/mp3-128/audio/" }
+Switch iWebradio_FluxFM_JaegerMusic_Radio "FluxFM JaegerMusic Radio" (gWebradio_FluxFM) { stream_uri="http://streams.fluxfm.de/studio56/mp3-128/audio/" }
+Switch iWebradio_FluxFM_Sound_Of_Berlin "FluxFM Sound Of Berlin" (gWebradio_FluxFM) { stream_uri="http://streams.fluxfm.de/soundofberlin/mp3-128/audio/" }
+Switch iWebradio_FluxFM_FluxForward "FluxFM FluxForward" (gWebradio_FluxFM) { stream_uri="http://streams.fluxfm.de/forward/mp3-128/audio/" }
+Switch iWebradio_FluxFM_Techno_Underground "FluxFM Techno Underground" (gWebradio_FluxFM) { stream_uri="http://streams.fluxfm.de/technoug/mp3-128/audio/" }
+Switch iWebradio_FluxFM_Berlin_Beach_House_Radio "FluxFM Berlin Beach House Radio" (gWebradio_FluxFM) { stream_uri="http://streams.fluxfm.de/bbeachhouse/mp3-128/audio/" }
+Switch iWebradio_FluxFM_Hippie_Trippy_Garden_Pretty "FluxFM Hippie Trippy Garden Pretty" (gWebradio_FluxFM) { stream_uri="http://streams.fluxfm.de/event02/mp3-128/radiode/" }
+Switch iWebradio_FluxFM_ElektroFlux "FluxFM ElektroFlux" (gWebradio_FluxFM) { stream_uri="http://streams.fluxfm.de/elektro/mp3-128/audio/" }
+Switch iWebradio_FluxFM_Ohrspiel "FluxFM Ohrspiel" (gWebradio_FluxFM) { stream_uri="http://streams.fluxfm.de/ohrspiel/mp3-128/audio/" }
+Switch iWebradio_FluxFM_XRadio "FluxFM XRadio" (gWebradio_FluxFM) { stream_uri="http://streams.fluxfm.de/90er/mp3-128/audio/" }
+Switch iWebradio_FluxFM_80s "FluxFM 80s" (gWebradio_FluxFM) { stream_uri="http://streams.fluxfm.de/80er/mp3-128/streams.fluxfm.de/" }
+Switch iWebradio_FluxFM_70s "FluxFM 70s" (gWebradio_FluxFM) { stream_uri="http://streams.fluxfm.de/70er/mp3-128/audio/" }
+Switch iWebradio_FluxFM_Passport_Approved "FluxFM Passport Approved" (gWebradio_FluxFM) { stream_uri="http://streams.fluxfm.de/passport/mp3-128/audio/" }
+Switch iWebradio_FluxFM_Mobys_Vegan_Radio "FluxFM Mobys Vegan Radio" (gWebradio_FluxFM) { stream_uri="http://streams.fluxfm.de/event01/mp3-128/audio/" }
+Switch iWebradio_FluxFM_John_Reed_Radio "FluxFM John Reed Radio" (gWebradio_FluxFM) { stream_uri="http://streams.fluxfm.de/john-reed/mp3-128/audio/" }
+Switch iWebradio_FluxFM_Jazzradio_Schwarzenstein "FluxFM Jazzradio Schwarzenstein" (gWebradio_FluxFM) { stream_uri="http://streams.fluxfm.de/jazzschwarz/mp3-128/audio/" }
+Switch iWebradio_FluxFM_BoomFM_Classics "FluxFM BoomFM Classics" (gWebradio_FluxFM) { stream_uri="http://streams.fluxfm.de/boomfmclassics/mp3-320/audio/" }
+
+Group gWebradio_Freies_Radio "Freies Radio" <receiver> (gWebradio)
+
+Switch iWebradio_Freier_Sender_Kombinat "Freier Sender Kombinat" (gWebradio_Freies_Radio) { stream_uri="http://stream.fsk-hh.org:8000/fsk.ogg.m3u" }
+Switch iWebradio_Freies_Radio_Stuttgart "Freies Radio Stuttgart" (gWebradio_Freies_Radio) { stream_uri="http://streaming.fueralle.org:8000/frs-hi.mp3.m3u" }
+Switch iWebradio_Freies_Radio_Wueste_Welle "Freies Radio Wueste Welle" (gWebradio_Freies_Radio) { stream_uri="http://livestream.wueste-welle.de:8000/ogg.m3u" }
+
+Group gWebradio_Hessischer_Rundfunk "Hessischer Rundfunk" <receiver> (gWebradio)
+
+Switch iWebradio_HR2 "HR2" (gWebradio_Hessischer_Rundfunk) { stream_uri="https://hlshr2.akamaized.net/hls/live/2016534/hr2/master.m3u8" }
+Switch iWebradio_HR4_Mittelhessen "HR4 Mittelhessen" (gWebradio_Hessischer_Rundfunk) { stream_uri="https://dispatcher.rndfnk.com/hr/hr4/mitte/mp3/high" }
+Switch iWebradio_HR4_Nordhessen "HR4 Nordhessen" (gWebradio_Hessischer_Rundfunk) { stream_uri="https://dispatcher.rndfnk.com/hr/hr4/nord/mp3/high" }
+Switch iWebradio_HR_Info "HR Info" (gWebradio_Hessischer_Rundfunk) { stream_uri="https://hlshrinfo.akamaized.net/hls/live/2016539/hrinfo/master.m3u8" }
+Switch iWebradio_You_FM "You FM" (gWebradio_Hessischer_Rundfunk) { stream_uri="https://dispatcher.rndfnk.com/hr/youfm/live/mp3/high" }
+
+Group gWebradio_Hit_Radio_FFH "Hit Radio FFH" <receiver> (gWebradio)
+
+Switch iWebradio_Hit_Radio_FFH "Hit Radio FFH" (gWebradio_Hit_Radio_FFH) { stream_uri="http://mp3.ffh.de/radioffh/hqlivestream.mp3 " }
+Switch iWebradio_FFHPlus_80er "FFHPlus 80er" (gWebradio_Hit_Radio_FFH) { stream_uri="http://mp3.ffh.de/ffhplus/hq80er.mp3" }
+Switch iWebradio_FFHPlus_90er "FFHPlus 90er" (gWebradio_Hit_Radio_FFH) { stream_uri="http://streams.ffh.de/ffhplus/mp3/hq90er.m3u" }
+Switch iWebradio_FFHPlus_Charts "FFHPlus Charts" (gWebradio_Hit_Radio_FFH) { stream_uri="http://mp3.ffh.de/ffhplus/hqcharts.mp3" }
+Switch iWebradio_FFHPlus_Rock "FFHPlus Rock" (gWebradio_Hit_Radio_FFH) { stream_uri="http://mp3.ffh.de/ffhplus/hqrock.mp3" }
+Switch iWebradio_FFH_Fruehlings_Feeling "FFH Fruehlings Feeling" (gWebradio_Hit_Radio_FFH) { stream_uri="http://mp3.ffh.de/ffhchannels/hqfruehlingsfeeling.mp3" }
+Switch iWebradio_FFH_Happy_Hits "FFH Happy Hits" (gWebradio_Hit_Radio_FFH) { stream_uri="http://mp3.ffh.de/ffhchannels/hqhappyhits.mp3" }
+Switch iWebradio_FFH_Chill_And_Grill "FFH Chill And Grill" (gWebradio_Hit_Radio_FFH) { stream_uri="http://mp3.ffh.de/ffhchannels/hqchillandgrill.mp3" }
+Switch iWebradio_FFH_Leider_Geil "FFH Leider Geil" (gWebradio_Hit_Radio_FFH) { stream_uri="http://mp3.ffh.de/ffhchannels/hqvoting.mp3" }
+Switch iWebradio_FFH_Kuschelrock "FFH Kuschelrock" (gWebradio_Hit_Radio_FFH) { stream_uri="http://mp3.ffh.de/ffhchannels/hqkuschelrock.mp3" }
+Switch iWebradio_FFH_Kuschelpop "FFH Kuschelpop" (gWebradio_Hit_Radio_FFH) { stream_uri="http://mp3.ffh.de/ffhchannels/hqkuschelpop.mp3" }
+Switch iWebradio_FFH_Just_White "FFH Just White" (gWebradio_Hit_Radio_FFH) { stream_uri="http://mp3.ffh.de/ffhchannels/hqjustwhite.mp3" }
+Switch iWebradio_FFH_Top1000 "FFH Top1000" (gWebradio_Hit_Radio_FFH) { stream_uri="http://mp3.ffh.de/ffhchannels/hqtop1000.mp3" }
+Switch iWebradio_FFH_Oldies "FFH Oldies" (gWebradio_Hit_Radio_FFH) { stream_uri="http://mp3.ffh.de/ffhchannels/hqoldies.mp3" }
+Switch iWebradio_FFH_Top40 "FFH Top40" (gWebradio_Hit_Radio_FFH) { stream_uri="http://mp3.ffh.de/ffhchannels/hqtop40.mp3" }
+Switch iWebradio_FFH_Party "FFH Party" (gWebradio_Hit_Radio_FFH) { stream_uri="http://mp3.ffh.de/ffhchannels/hqparty.mp3" }
+Switch iWebradio_FFH_Best_of_2022 "FFH Best of 2022" (gWebradio_Hit_Radio_FFH) { stream_uri="http://mp3.ffh.de/ffhchannels/hqbestof.mp3" }
+Switch iWebradio_FFH_Die_80er "FFH Die 80er" (gWebradio_Hit_Radio_FFH) { stream_uri="http://mp3.ffh.de/ffhchannels/hq80er.mp3" }
+Switch iWebradio_FFH_Just_90s "FFH Just 90s" (gWebradio_Hit_Radio_FFH) { stream_uri="http://mp3.ffh.de/ffhchannels/hq90er.mp3" }
+Switch iWebradio_FFH_Die_2000er "FFH Die 2000er" (gWebradio_Hit_Radio_FFH) { stream_uri="http://mp3.ffh.de/ffhchannels/hq2000er.mp3" }
+Switch iWebradio_FFH_Die_2010er "FFH Die 2010er" (gWebradio_Hit_Radio_FFH) { stream_uri="http://mp3.ffh.de/ffhchannels/hq2010er.mp3" }
+Switch iWebradio_FFH_Summer_Feeling "FFH Summer Feeling" (gWebradio_Hit_Radio_FFH) { stream_uri="http://mp3.ffh.de/ffhchannels/hqsummerfeeling.mp3" }
+Switch iWebradio_FFH_Eurodance "FFH Eurodance" (gWebradio_Hit_Radio_FFH) { stream_uri="http://mp3.ffh.de/ffhchannels/hqeurodance.mp3" }
+Switch iWebradio_FFH_Rock "FFH Rock" (gWebradio_Hit_Radio_FFH) { stream_uri="http://mp3.ffh.de/ffhchannels/hqrock.mp3" }
+Switch iWebradio_FFH_Workout "FFH Workout" (gWebradio_Hit_Radio_FFH) { stream_uri="http://mp3.ffh.de/ffhchannels/hqworkout.mp3" }
+Switch iWebradio_FFH_Schlagerkult "FFH Schlagerkult" (gWebradio_Hit_Radio_FFH) { stream_uri="http://mp3.ffh.de/ffhchannels/hqschlager.mp3" }
+Switch iWebradio_FFH_Deutsch_Pur "FFH Deutsch Pur" (gWebradio_Hit_Radio_FFH) { stream_uri="http://mp3.ffh.de/ffhchannels/hqdeutsch.mp3" }
+Switch iWebradio_FFH_Brandneu "FFH Brandneu" (gWebradio_Hit_Radio_FFH) { stream_uri="http://mp3.ffh.de/ffhchannels/hqbrandneu.mp3" }
+Switch iWebradio_FFH_Lounge "FFH Lounge" (gWebradio_Hit_Radio_FFH) { stream_uri="http://mp3.ffh.de/ffhchannels/hqlounge.mp3" }
+Switch iWebradio_FFH_Acoustic_Hits "FFH Acoustic Hits" (gWebradio_Hit_Radio_FFH) { stream_uri="http://mp3.ffh.de/ffhchannels/hqacoustichits.mp3" }
+Switch iWebradio_FFH_Soundtrack "FFH Soundtrack" (gWebradio_Hit_Radio_FFH) { stream_uri="http://mp3.ffh.de/ffhchannels/hqsoundtrack.mp3" }
+Switch iWebradio_FFHPlus_Weihnachten "FFHPlus Weihnachten" (gWebradio_Hit_Radio_FFH) { stream_uri="http://mp3.ffh.de/ffhplus/hqxmas.mp3" }
+Switch iWebradio_FFH_Weihnachtsradio "FFH Weihnachtsradio" (gWebradio_Hit_Radio_FFH) { stream_uri="http://mp3.ffh.de/ffhchannels/hqxmas.mp3" }
+
+Group gWebradio_JAM_FM "JAM FM" <receiver> (gWebradio)
+
+Switch iWebradio_JAM_FM "JAM FM" (gWebradio_JAM_FM) { stream_uri="http://stream.jam.fm/jamfm-live/mp3-192" }
+Switch iWebradio_JAM_FM_90er "JAM FM 90er" (gWebradio_JAM_FM) { stream_uri="http://stream.jam.fm/90er/mp3-192/" }
+Switch iWebradio_JAM_FM_2000er "JAM FM 2000er" (gWebradio_JAM_FM) { stream_uri="http://stream.jam.fm/2000er/mp3-192/" }
+Switch iWebradio_JAM_FM_2010er "JAM FM 2010er" (gWebradio_JAM_FM) { stream_uri="http://stream.jam.fm/2010er/mp3-192/" }
+Switch iWebradio_JAM_FM_Charts "JAM FM Charts" (gWebradio_JAM_FM) { stream_uri="http://stream.jam.fm/charts" }
+Switch iWebradio_JAM_FM_NMR "JAM FM NMR" (gWebradio_JAM_FM) { stream_uri="http://stream.jam.fm/jamfm-nmr" }
+Switch iWebradio_JAM_FM_BL "JAM FM BL" (gWebradio_JAM_FM) { stream_uri="http://stream.jam.fm/jamfm-bl" }
+Switch iWebradio_JAM_FM_Elektro "JAM FM Elektro" (gWebradio_JAM_FM) { stream_uri="http://stream.jam.fm/elektro" }
+Switch iWebradio_JAM_FM_Rap "JAM FM Rap" (gWebradio_JAM_FM) { stream_uri="http://stream.jam.fm/rap" }
+Switch iWebradio_JAM_FM_Deutschrap "JAM FM Deutschrap" (gWebradio_JAM_FM) { stream_uri="http://stream.jam.fm/deutschrap" }
+Switch iWebradio_JAM_FM_Party "JAM FM Party" (gWebradio_JAM_FM) { stream_uri="http://stream.jam.fm/party" }
+
+Group gWebradio_Hitradio_RT1 "Hitradio RT1" <receiver> (gWebradio)
+
+Switch iWebradio_Hitradio_RT1_Augsburg "Hitradio RT1 Augsburg" (gWebradio_Hitradio_RT1) { stream_uri="https://rt1.radio/augsburg" }
+Switch iWebradio_Hitradio_RT1_Neuburg_an_der_Donau_Schrobenhausen "Hitradio RT1 Neuburg an der Donau Schrobenhausen" (gWebradio_Hitradio_RT1) { stream_uri="https://rt1.radio/nds" }
+Switch iWebradio_Hitradio_RT1_Nordschwaben_Donauwoerth "Hitradio RT1 Nordschwaben Donauwoerth" (gWebradio_Hitradio_RT1) { stream_uri="https://rt1.radio/nordschwaben" }
+Switch iWebradio_Hitradio_RT1_Memmingen_Unterallgaeu "Hitradio RT1 Memmingen Unterallgaeu" (gWebradio_Hitradio_RT1) { stream_uri="https://rt1.radio/suedschwaben" }
+Switch iWebradio_Hitradio_RT1_2000er "Hitradio RT1 2000er" (gWebradio_Hitradio_RT1) { stream_uri="https://rt1.radio/2000er" }
+Switch iWebradio_Hitradio_RT1_80er "Hitradio RT1 80er" (gWebradio_Hitradio_RT1) { stream_uri="https://rt1.radio/80s" }
+Switch iWebradio_Hitradio_RT1_90er "Hitradio RT1 90er" (gWebradio_Hitradio_RT1) { stream_uri="https://rt1.radio/90s" }
+Switch iWebradio_Hitradio_RT1_Black "Hitradio RT1 Black" (gWebradio_Hitradio_RT1) { stream_uri="https://rt1.radio/black" }
+Switch iWebradio_Hitradio_RT1_Clubbing "Hitradio RT1 Clubbing" (gWebradio_Hitradio_RT1) { stream_uri="https://rt1.radio/chillhouse" }
+Switch iWebradio_Hitradio_RT1_Dance_Party "Hitradio RT1 Dance Party" (gWebradio_Hitradio_RT1) { stream_uri="https://rt1.radio/dance" }
+Switch iWebradio_Hitradio_RT1_Deutsche_Hits "Hitradio RT1 Deutsche Hits" (gWebradio_Hitradio_RT1) { stream_uri="https://rt1.radio/made-in-germany" }
+Switch iWebradio_Hitradio_RT1_Eurodance "Hitradio RT1 Eurodance" (gWebradio_Hitradio_RT1) { stream_uri="https://rt1.radio/eurodance" }
+Switch iWebradio_Hitradio_RT1_Funk "Hitradio RT1 Funk" (gWebradio_Hitradio_RT1) { stream_uri="https://rt1.radio/funk" }
+Switch iWebradio_Hitradio_RT1_In_The_Mix "Hitradio RT1 In The Mix" (gWebradio_Hitradio_RT1) { stream_uri="https://rt1.radio/in-the-mix" }
+Switch iWebradio_Hitradio_RT1_Lounge "Hitradio RT1 Lounge" (gWebradio_Hitradio_RT1) { stream_uri="https://rt1.radio/lounge" }
+Switch iWebradio_Hitradio_RT1_Oldies "Hitradio RT1 Oldies" (gWebradio_Hitradio_RT1) { stream_uri="https://rt1.radio/oldies" }
+Switch iWebradio_Hitradio_RT1_Power_Workout "Hitradio RT1 Power Workout" (gWebradio_Hitradio_RT1) { stream_uri="https://rt1.radio/powerworkout" }
+Switch iWebradio_Hitradio_RT1_Relax "Hitradio RT1 Relax" (gWebradio_Hitradio_RT1) { stream_uri="https://rt1.radio/relax" }
+Switch iWebradio_Hitradio_RT1_Rock "Hitradio RT1 Rock" (gWebradio_Hitradio_RT1) { stream_uri="https://rt1.radio/rock" }
+Switch iWebradio_Hitradio_RT1_Xmas "Hitradio RT1 Xmas" (gWebradio_Hitradio_RT1) { stream_uri="https://rt1.radio/xmas" }
+Switch iWebradio_Hitradio_RT1_Soundtrack "Hitradio RT1 Soundtrack" (gWebradio_Hitradio_RT1) { stream_uri="https://rt1.radio/soundtrack" }
+Switch iWebradio_Hitradio_RT1_Coffee "Hitradio RT1 Coffee" (gWebradio_Hitradio_RT1) { stream_uri="https://rt1.radio/coffee" }
+Switch iWebradio_Hitradio_RT1_Running "Hitradio RT1 Running" (gWebradio_Hitradio_RT1) { stream_uri="https://rt1.radio/running" }
+Switch iWebradio_Hitradio_RT1_Dinner_and_Cocktail_Hits "Hitradio RT1 Dinner and Cocktail Hits" (gWebradio_Hitradio_RT1) { stream_uri="https://rt1.radio/cocktail" }
+
+Group gWebradio_Mitteldeutscher_Rundfunk "Mitteldeutscher_Rundfunk (MDR)" <receiver> (gWebradio)
+
+Switch iWebradio_MDR_Aktuell "MDR Aktuell" (gWebradio_Mitteldeutscher_Rundfunk) { stream_uri="http://mdr-284340-0.cast.mdr.de/mdr/284340/0/mp3/high/stream.mp3" }
+Switch iWebradio_MDR_JUMP "MDR JUMP" (gWebradio_Mitteldeutscher_Rundfunk) { stream_uri="http://mdr-284320-0.cast.mdr.de/mdr/284320/0/mp3/high/stream.mp3" }
+Switch iWebradio_MDR_KLASSIK "MDR KLASSIK" (gWebradio_Mitteldeutscher_Rundfunk) { stream_uri="http://mdr-284350-0.cast.mdr.de/mdr/284350/0/mp3/high/stream.mp3" }
+Switch iWebradio_MDR_KULTUR "MDR KULTUR" (gWebradio_Mitteldeutscher_Rundfunk) { stream_uri="http://mdr-284310-0.cast.mdr.de/mdr/284310/0/mp3/high/stream.mp3" }
+Switch iWebradio_MDR_Sachsen "MDR Sachsen" (gWebradio_Mitteldeutscher_Rundfunk) { stream_uri="http://mdr-284280-0.cast.mdr.de/mdr/284280/0/mp3/high/stream.mp3" }
+Switch iWebradio_MDR_Sachsen_Sorbisches_Programm "MDR Sachsen Sorbisches Programm" (gWebradio_Mitteldeutscher_Rundfunk) { stream_uri="http://mdr-990100-0.cast.mdr.de/mdr/990100/0/mp3/high/stream.mp3" }
+Switch iWebradio_MDR_SachsenAnhalt "MDR SachsenAnhalt" (gWebradio_Mitteldeutscher_Rundfunk) { stream_uri="http://mdr-284290-3.cast.mdr.de/mdr/284290/3/mp3/high/stream.mp3" }
+Switch iWebradio_MDR_Schlagerwelt_Sachsen "MDR Schlagerwelt Sachsen" (gWebradio_Mitteldeutscher_Rundfunk) { stream_uri="http://mdr-990801-0.cast.mdr.de/mdr/990801/0/mp3/high/stream.mp3" }
+Switch iWebradio_MDR_Sputnik "MDR Sputnik" (gWebradio_Mitteldeutscher_Rundfunk) { stream_uri="http://mdr-284330-0.cast.mdr.de/mdr/284330/0/mp3/high/stream.mp3" }
+Switch iWebradio_MDR_Thueringen "MDR Thueringen" (gWebradio_Mitteldeutscher_Rundfunk) { stream_uri="http://mdr-284300-3.cast.mdr.de/mdr/284300/3/mp3/high/stream.mp3" }
+Switch iWebradio_MDR_Tweens "MDR Tweens" (gWebradio_Mitteldeutscher_Rundfunk) { stream_uri="http://mdr-991101-0.cast.mdr.de/mdr/991101/0/mp3/high/stream.mp3" }
+
+Group gWebradio_Norddeutscher_Rundfunk "Norddeutscher_Rundfunk (NDR)" <receiver> (gWebradio)
+
+Switch iWebradio_NDR1_Niedersachsen_Hannover "NDR1 Niedersachsen Hannover" (gWebradio_Norddeutscher_Rundfunk) { stream_uri="http://www.ndr.de/resources/metadaten/audio/m3u/ndr1niedersachsen.m3u" }
+Switch iWebradio_NDR1_Niedersachsen_Braunschweig "NDR1 Niedersachsen Braunschweig" (gWebradio_Norddeutscher_Rundfunk) { stream_uri="https://www.ndr.de/resources/metadaten/audio/m3u/ndr1niedersachsen_bs.m3u" }
+Switch iWebradio_NDR1_Niedersachsen_Lueneburg "NDR1 Niedersachsen Lueneburg" (gWebradio_Norddeutscher_Rundfunk) { stream_uri="https://www.ndr.de/resources/metadaten/audio/m3u/ndr1niedersachsen_lg.m3u" }
+Switch iWebradio_NDR1_Niedersachsen_Oldenburg "NDR1 Niedersachsen Oldenburg" (gWebradio_Norddeutscher_Rundfunk) { stream_uri="https://www.ndr.de/resources/metadaten/audio/m3u/ndr1niedersachsen_ol.m3u" }
+Switch iWebradio_NDR1_Niedersachsen_Osnarbrueck "NDR1 Niedersachsen Osnarbrueck" (gWebradio_Norddeutscher_Rundfunk) { stream_uri="https://www.ndr.de/resources/metadaten/audio/m3u/ndr1niedersachsen_os.m3u" }
+Switch iWebradio_NDR1_MecklenburgVorpommern_Schwerin "NDR1 MecklenburgVorpommern Schwerin" (gWebradio_Norddeutscher_Rundfunk) { stream_uri="https://www.ndr.de/resources/metadaten/audio/m3u/ndr1radiomv.m3u" }
+Switch iWebradio_NDR1_MecklenburgVorpommern_Greifswald "NDR1 MecklenburgVorpommern Greifswald" (gWebradio_Norddeutscher_Rundfunk) { stream_uri="https://www.ndr.de/resources/metadaten/audio/m3u/ndr1radiomv_hgw.m3u" }
+Switch iWebradio_NDR1_MecklenburgVorpommern_Rostock "NDR1 MecklenburgVorpommern Rostock" (gWebradio_Norddeutscher_Rundfunk) { stream_uri="https://www.ndr.de/resources/metadaten/audio/m3u/ndr1radiomv_hro.m3u" }
+Switch iWebradio_NDR1_MecklenburgVorpommern_Neubrandenburg "NDR1 MecklenburgVorpommern Neubrandenburg" (gWebradio_Norddeutscher_Rundfunk) { stream_uri="https://www.ndr.de/resources/metadaten/audio/m3u/ndr1radiomv_nb.m3u" }
+Switch iWebradio_NDR_90_3 "NDR 90 3" (gWebradio_Norddeutscher_Rundfunk) { stream_uri="http://www.ndr.de/resources/metadaten/audio/m3u/ndr903.m3u" }
+Switch iWebradio_NDR1_Welle_Nord_Kiel "NDR1 Welle Nord Kiel" (gWebradio_Norddeutscher_Rundfunk) { stream_uri="http://www.ndr.de/resources/metadaten/audio/m3u/ndr1wellenord.m3u" }
+Switch iWebradio_NDR1_Welle_Nord_Flensburg "NDR1 Welle Nord Flensburg" (gWebradio_Norddeutscher_Rundfunk) { stream_uri="https://www.ndr.de/resources/metadaten/audio/m3u/ndr1wellenord_fl.m3u" }
+Switch iWebradio_NDR1_Welle_Nord_Heide "NDR1 Welle Nord Heide" (gWebradio_Norddeutscher_Rundfunk) { stream_uri="https://www.ndr.de/resources/metadaten/audio/m3u/ndr1wellenord_hei.m3u" }
+Switch iWebradio_NDR1_Welle_Nord_Luebeck "NDR1 Welle Nord Luebeck" (gWebradio_Norddeutscher_Rundfunk) { stream_uri="https://www.ndr.de/resources/metadaten/audio/m3u/ndr1wellenord_hl.m3u" }
+Switch iWebradio_NDR1_Welle_Nord_Norderstedt "NDR1 Welle Nord Norderstedt" (gWebradio_Norddeutscher_Rundfunk) { stream_uri="https://www.ndr.de/resources/metadaten/audio/m3u/ndr1wellenord_nor.m3u" }
+Switch iWebradio_NDR2_Niedersachsen "NDR2 Niedersachsen" (gWebradio_Norddeutscher_Rundfunk) { stream_uri="http://www.ndr.de/resources/metadaten/audio/m3u/ndr2.m3u" }
+Switch iWebradio_NDR2_Hamburg "NDR2 Hamburg" (gWebradio_Norddeutscher_Rundfunk) { stream_uri="https://www.ndr.de/resources/metadaten/audio/m3u/ndr2_hh.m3u" }
+Switch iWebradio_NDR2_MecklenburgVorpommern "NDR2 MecklenburgVorpommern" (gWebradio_Norddeutscher_Rundfunk) { stream_uri="https://www.ndr.de/resources/metadaten/audio/m3u/ndr2_mv.m3u" }
+Switch iWebradio_NDR2_SchleswigHolstein "NDR2 SchleswigHolstein" (gWebradio_Norddeutscher_Rundfunk) { stream_uri="https://www.ndr.de/resources/metadaten/audio/m3u/ndr2_sh.m3u" }
+Switch iWebradio_NDR_Kultur "NDR Kultur" (gWebradio_Norddeutscher_Rundfunk) { stream_uri="http://www.ndr.de/resources/metadaten/audio/m3u/ndrkultur.m3u" }
+Switch iWebradio_NDR_Info_Niedersachsen "NDR Info Niedersachsen" (gWebradio_Norddeutscher_Rundfunk) { stream_uri="http://www.ndr.de/resources/metadaten/audio/m3u/ndrinfo.m3u" }
+Switch iWebradio_NDR_Info_Hamburg "NDR Info Hamburg" (gWebradio_Norddeutscher_Rundfunk) { stream_uri="https://www.ndr.de/resources/metadaten/audio/m3u/ndrinfo_hh.m3u" }
+Switch iWebradio_NDR_Info_MecklenburgVorpommern "NDR Info MecklenburgVorpommern" (gWebradio_Norddeutscher_Rundfunk) { stream_uri="https://www.ndr.de/resources/metadaten/audio/m3u/ndrinfo_mv.m3u" }
+Switch iWebradio_NDR_Info_SchleswigHolstein "NDR Info SchleswigHolstein" (gWebradio_Norddeutscher_Rundfunk) { stream_uri="https://www.ndr.de/resources/metadaten/audio/m3u/ndrinfo_sh.m3u" }
+Switch iWebradio_NDR_Info_Spezial "NDR Info Spezial" (gWebradio_Norddeutscher_Rundfunk) { stream_uri="https://www.ndr.de/resources/metadaten/audio/m3u/ndrinfo_spezial.m3u" }
+Switch iWebradio_NJoy "NJoy" (gWebradio_Norddeutscher_Rundfunk) { stream_uri="http://www.ndr.de/resources/metadaten/audio/m3u/n-joy.m3u" }
+Switch iWebradio_NDR_Blue "NDR Blue" (gWebradio_Norddeutscher_Rundfunk) { stream_uri="http://www.ndr.de/resources/metadaten/audio/m3u/ndrblue.m3u" }
+Switch iWebradio_NDR_Schlager "NDR Schlager" (gWebradio_Norddeutscher_Rundfunk) { stream_uri="https://www.ndr.de/resources/metadaten/audio/m3u/ndrschlager.m3u" }
+
+Group gWebradio_Suedwestrundfunk "Südwestrundfunk (SWR)" <receiver> (gWebradio)
+
+Switch iWebradio_SWR1_BW "SWR1 BW" (gWebradio_Suedwestrundfunk) { stream_uri="https://d131.rndfnk.com/ard/swr/swr1/bw/mp3/128/stream.mp3?aggregator=web&cid=01FC1X3K2Z71SMDKMEC68DM7MW&sid=2D9g9Jx51DuDZCf3L3y7b3BiHwQ&token=k_FTXGAGjgcQvgGM8KfOsmFtC8X1JI-LUYNnFUMna0I&tvf=tIGCxNz-CRdkMTMxLnJuZGZuay5jb20" }
+Switch iWebradio_SWR1_RP "SWR1 RP" (gWebradio_Suedwestrundfunk) { stream_uri="https://f111.rndfnk.com/ard/swr/swr1/rp/mp3/128/stream.mp3?aggregator=web&cid=01FC1X3Q82Y5KQ31V7YJVJJ07W&sid=2D9gUDldYx4rOlV7ycvKlgwIncZ&token=FWfMBjq_y0Tz7xNa88jSJpJFZbmw5PSh1CIu8DjgzPk&tvf=40H_bwP_CRdmMTExLnJuZGZuay5jb20" }
+Switch iWebradio_SWR2 "SWR2" (gWebradio_Suedwestrundfunk) { stream_uri="https://d131.rndfnk.com/ard/swr/swr2/live/mp3/256/stream.mp3?aggregator=web&cid=01FC1X4J91VJW1CVH6588MZEE3&sid=2D9gbkxIZPCONkbgNsF1JSsPTfq&token=WjX9HlSm5tKRLZOBAI2ZAMOMHZ73mbrVHKM3guPlzn0&tvf=myxZXRH_CRdkMTMxLnJuZGZuay5jb20" }
+Switch iWebradio_SWR3 "SWR3" (gWebradio_Suedwestrundfunk) { stream_uri="https://d121.rndfnk.com/ard/swr/swr3/live/mp3/128/stream.mp3?aggregator=web&cid=01FC1X5J7PN2N3YQPZYT8YDM9M&sid=2D9gfBju8QbeDa0gfuafFLgMDhk&token=fP3ORreQOqCrnJjY36dldQse5lYtgarP3gVoRlvcAHU&tvf=wqO5qBf_CRdkMTIxLnJuZGZuay5jb20" }
+Switch iWebradio_SWR3_Rock "SWR3 Rock" (gWebradio_Suedwestrundfunk) { stream_uri="https://liveradio.swr.de/s344dh2/raka05/play.aac" }
+Switch iWebradio_SWR3_Party "SWR3 Party" (gWebradio_Suedwestrundfunk) { stream_uri="https://liveradio.swr.de/s344dh2/raka06/play.aac" }
+Switch iWebradio_SWR3_Mottotage "SWR3 Mottotage" (gWebradio_Suedwestrundfunk) { stream_uri="https://liveradio.swr.de/s344dh2/raka08/play.aac" }
+Switch iWebradio_SWR3_Specials "SWR3 Specials" (gWebradio_Suedwestrundfunk) { stream_uri="https://liveradio.swr.de/s344dh2/raka09/play.aac" }
+Switch iWebradio_SWR_Aktuell "SWR Aktuell" (gWebradio_Suedwestrundfunk) { stream_uri="https://d121.rndfnk.com/ard/swr/swraktuell/live/mp3/128/stream.mp3?aggregator=web&cid=01FC1X68PSW211RY56CDZQEEEN&sid=2D9gio7RTx4O2hROsDfuEG5MRT1&token=Lk-mn_cvfvuC7jlaFTGeswYchJFLSyrgtV5ZWUcz4QQ&tvf=p-uJRB7_CRdkMTIxLnJuZGZuay5jb20" }
+Switch iWebradio_DASDING "DASDING" (gWebradio_Suedwestrundfunk) { stream_uri="https://f141.rndfnk.com/ard/swr/dasding/live/mp3/128/stream.mp3?aggregator=web&cid=01FBVQWZT2B1KGPFJ7TDHQ1Y2B&sid=2D9glq9pLGPdixItc8XSQx2XIaW&token=wzVN2Bn8BX4tVTafk4I9LF65avwOf7vLOO4RiVGgBVY&tvf=Eyyv4iP_CRdmMTQxLnJuZGZuay5jb20" }
+Switch iWebradio_SWR4_BW "SWR4 BW" (gWebradio_Suedwestrundfunk) { stream_uri="https://f111.rndfnk.com/ard/swr/swr4/bw/mp3/128/stream.mp3?aggregator=web&cid=01FC1X86VT36Q01G4NBJ3Q4R1Z&sid=2D9gptklQZ1pfbwJELHsqAJFfcl&token=nn2-VBTumDScaj-shgLiMw3H0PugYRvJuAOShR3qBYM&tvf=T-IIniv_CRdmMTExLnJuZGZuay5jb20" }
+Switch iWebradio_SWR4_RP "SWR4 RP" (gWebradio_Suedwestrundfunk) { stream_uri="https://f131.rndfnk.com/ard/swr/swr4/rp/mp3/128/stream.mp3?aggregator=web&cid=01FC1XCV71QFMQD2RNKF4BC5HG&sid=2D9gsbtnfcAb1UHhBHqAG3wlYvK&token=n91pcPHq14yLfEC9hQlTcD7-utPHSLAjBWaMXGSAK7o&tvf=1El-hjD_CRdmMTMxLnJuZGZuay5jb20" }
+
+Group gWebradio_Ostseewelle_Hit_Radio_MecklenburgVorpommern "Ostseewelle Hit Radio Mecklenburg-Vorpommern" <receiver> (gWebradio)
+
+Switch iWebradio_Ostseewelle_Hit_Radio_MecklenburgVorpommern_80er "Ostseewelle Hit Radio MecklenburgVorpommern 80er" (gWebradio_Ostseewelle_Hit_Radio_MecklenburgVorpommern) { stream_uri="http://streamosw.ir-media-tec.com/80er/mp3-128/web/" }
+Switch iWebradio_Ostseewelle_Hit_Radio_MecklenburgVorpommern_90er "Ostseewelle Hit Radio MecklenburgVorpommern 90er" (gWebradio_Ostseewelle_Hit_Radio_MecklenburgVorpommern) { stream_uri="http://streamosw.ir-media-tec.com/90er/mp3-128/web/" }
+
+Group gWebradio_R_SA_Sachsen "R.SA Sachsen" <receiver> (gWebradio)
+
+Switch iWebradio_R_SA_Sachsen "R.SA Sachsen" (gWebradio_R_SA_Sachsen) { stream_uri="http://streams.rsa-sachsen.de/rsa-live/mp3-192/mediaplayerrsa" }
+Switch iWebradio_R_SA_Sachsen_Beatles_Stream "R.SA Sachsen Beatles Stream" (gWebradio_R_SA_Sachsen) { stream_uri="http://streams.rsa-sachsen.de/rsa-beatles/mp3-192/mediaplayerrsa" }
+Switch iWebradio_R_SA_Sachsen_Hinhoerkanal "R.SA Sachsen Hinhoerkanal" (gWebradio_R_SA_Sachsen) { stream_uri="http://streams.rsa-sachsen.de/rsa-hinhoer/mp3-192/mediaplayerrsa" }
+Switch iWebradio_R_SA_Sachsen_Ostrock_Stream "R.SA Sachsen Ostrock Stream" (gWebradio_R_SA_Sachsen) { stream_uri="http://streams.rsa-sachsen.de/rsa-ostrock/mp3-192/mediaplayerrsa" }
+Switch iWebradio_R_SA_Sachsen_Rockzirkus "R.SA Sachsen Rockzirkus" (gWebradio_R_SA_Sachsen) { stream_uri="http://streams.rsa-sachsen.de/rsa-rockzirkus/mp3-192/mediaplayerrsa" }
+Switch iWebradio_R_SA_Sachsen_OldieClub "R.SA Sachsen OldieClub" (gWebradio_R_SA_Sachsen) { stream_uri="http://streams.rsa-sachsen.de/rsa-oldies/mp3-192/mediaplayerrsa" }
+Switch iWebradio_R_SA_Sachsen_Maxis_Maximal "R.SA Sachsen Maxis Maximal" (gWebradio_R_SA_Sachsen) { stream_uri="http://streams.rsa-sachsen.de/maxis/mp3-192/mediaplayerrsa/" }
+Switch iWebradio_R_SA_Sachsen_Partywelle "R.SA Sachsen Partywelle" (gWebradio_R_SA_Sachsen) { stream_uri="http://streams.rsa-sachsen.de/rsa-partywelle/mp3-192/mediaplayerrsa/" }
+
+Group gWebradio_Radio_Arabella "Radio Arabella" <receiver> (gWebradio)
+
+
+Group gWebradio_Radio_Bob "RADIO BOB! – Rock'n Pop" <receiver> (gWebradio)
+
+Switch iWebradio_Radio_Bob "Radio Bob" (gWebradio_Radio_Bob) { stream_uri="http://streams.radiobob.de/bob-live/aac-64/mediaplayer" }
+Switch iWebradio_Radio_Bob_Event_100 "Radio Bob Event 100" (gWebradio_Radio_Bob) { stream_uri="http://streams.radiobob.de/100/mp3-128/streams.radiobob.de/" }
+Switch iWebradio_Radio_Bob_Event_101 "Radio Bob Event 101" (gWebradio_Radio_Bob) { stream_uri="http://streams.radiobob.de/101/mp3-128/streams.radiobob.de/" }
+Switch iWebradio_Radio_Bob_80er_Rock "Radio Bob 80er Rock" (gWebradio_Radio_Bob) { stream_uri="http://streams.radiobob.de/bob-80srock/mp3-128/streams.radiobob.de/" }
+Switch iWebradio_Radio_Bob_90er_Rock "Radio Bob 90er Rock" (gWebradio_Radio_Bob) { stream_uri="http://streams.radiobob.de/bob-90srock/mp3-128/streams.radiobob.de/" }
+Switch iWebradio_Radio_Bob_ACDC_Collection "Radio Bob ACDC Collection" (gWebradio_Radio_Bob) { stream_uri="http://streams.radiobob.de/bob-acdc/mp3-128/streams.radiobob.de/" }
+Switch iWebradio_Radio_Bob_Alternative_Rock "Radio Bob Alternative Rock" (gWebradio_Radio_Bob) { stream_uri="http://streams.radiobob.de/bob-alternative/mp3-128/streams.radiobob.de/" }
+Switch iWebradio_Radio_Bob_Best_of_Rock "Radio Bob Best of Rock" (gWebradio_Radio_Bob) { stream_uri="http://streams.radiobob.de/bob-bestofrock/mp3-128/streams.radiobob.de/" }
+Switch iWebradio_Radio_Bob_Chillout_Unplugged "Radio Bob Chillout Unplugged" (gWebradio_Radio_Bob) { stream_uri="http://streams.radiobob.de/bob-chillout/mp3-128/streams.radiobob.de/" }
+Switch iWebradio_Radio_Bob_Christmas_Rock "Radio Bob Christmas Rock" (gWebradio_Radio_Bob) { stream_uri="http://streams.radiobob.de/bob-christmas/mp3-128/streams.radiobob.de/" }
+Switch iWebradio_Radio_Bob_Classic_Rock "Radio Bob Classic Rock" (gWebradio_Radio_Bob) { stream_uri="http://streams.radiobob.de/bob-classicrock/mp3-192/streams.radiobob.de/" }
+Switch iWebradio_Radio_Bob_Deutsch_Rock "Radio Bob Deutsch Rock" (gWebradio_Radio_Bob) { stream_uri="http://streams.radiobob.de/bob-deutsch/mp3-128/streams.radiobob.de/" }
+Switch iWebradio_Radio_Bob_Festival_Stream "Radio Bob Festival Stream" (gWebradio_Radio_Bob) { stream_uri="http://streams.radiobob.de/bob-festival/mp3-128/streams.radiobob.de/" }
+Switch iWebradio_Radio_Bob_Grunge "Radio Bob Grunge" (gWebradio_Radio_Bob) { stream_uri="http://streams.radiobob.de/bob-grunge/mp3-128/streams.radiobob.de/" }
+Switch iWebradio_Radio_Bob_Hardrock "Radio Bob Hardrock" (gWebradio_Radio_Bob) { stream_uri="http://streams.radiobob.de/bob-hardrock/mp3-128/streams.radiobob.de/" }
+Switch iWebradio_Radio_Bob_Harte_Saite "Radio Bob Harte Saite" (gWebradio_Radio_Bob) { stream_uri="http://streams.radiobob.de/bob-hartesaite/mp3-128/streams.radiobob.de/" }
+Switch iWebradio_Radio_Bob_Kuschelrock "Radio Bob Kuschelrock" (gWebradio_Radio_Bob) { stream_uri="http://streams.radiobob.de/bob-kuschelrock/mp3-128/streams.radiobob.de/" }
+Switch iWebradio_Radio_Bob_Metal "Radio Bob Metal" (gWebradio_Radio_Bob) { stream_uri="http://streams.radiobob.de/bob-metal/mp3-128/streams.radiobob.de/" }
+Switch iWebradio_Radio_Bob_National "Radio Bob National" (gWebradio_Radio_Bob) { stream_uri="http://streams.radiobob.de/bob-national/mp3-128/streams.radiobob.de/" }
+Switch iWebradio_Radio_Bob_Punk "Radio Bob Punk" (gWebradio_Radio_Bob) { stream_uri="http://streams.radiobob.de/bob-punk/mp3-128/streams.radiobob.de/" }
+Switch iWebradio_Radio_Bob_Queen "Radio Bob Queen" (gWebradio_Radio_Bob) { stream_uri="http://streams.radiobob.de/bob-queen/mp3-128/streams.radiobob.de/" }
+Switch iWebradio_Radio_Bob_Rockabilly "Radio Bob Rockabilly" (gWebradio_Radio_Bob) { stream_uri="http://streams.radiobob.de/bob-rockabilly/mp3-128/streams.radiobob.de/" }
+Switch iWebradio_Radio_Bob_Rock_Hits "Radio Bob Rock Hits" (gWebradio_Radio_Bob) { stream_uri="http://streams.radiobob.de/bob-rockhits/mp3-128/streams.radiobob.de/" }
+Switch iWebradio_Radio_Bob_rockt_SchleswigHolstein "Radio Bob rockt SchleswigHolstein" (gWebradio_Radio_Bob) { stream_uri="http://streams.radiobob.de/bob-shlive/mp3-128/streams.radiobob.de/" }
+Switch iWebradio_Radio_Bob_Singer_and_Songwriter "Radio Bob Singer and Songwriter" (gWebradio_Radio_Bob) { stream_uri="http://streams.radiobob.de/bob-singersong/mp3-128/streams.radiobob.de/" }
+Switch iWebradio_Radio_Bob_Wacken_Nonstop "Radio Bob Wacken Nonstop" (gWebradio_Radio_Bob) { stream_uri="http://streams.radiobob.de/bob-wacken/mp3-128/streams.radiobob.de/" }
+Switch iWebradio_Radio_Bob_BossHoss_Rockshow "Radio Bob BossHoss Rockshow" (gWebradio_Radio_Bob) { stream_uri="http://streams.radiobob.de/bosshoss/mp3-128/streams.radiobob.de/" }
+Switch iWebradio_Radio_Bob_Death_Metal "Radio Bob Death Metal" (gWebradio_Radio_Bob) { stream_uri="http://streams.radiobob.de/deathmetal/mp3-128/streams.radiobob.de/" }
+Switch iWebradio_Radio_Bob_Fury_in_the_Slaughterhouse "Radio Bob Fury in the Slaughterhouse" (gWebradio_Radio_Bob) { stream_uri="http://streams.radiobob.de/fury/mp3-128/streams.radiobob.de/" }
+Switch iWebradio_Radio_Bob_Gothic_Rock "Radio Bob Gothic Rock" (gWebradio_Radio_Bob) { stream_uri="http://streams.radiobob.de/gothic/mp3-128/streams.radiobob.de/" }
+Switch iWebradio_Radio_Bob_Metalcore "Radio Bob Metalcore" (gWebradio_Radio_Bob) { stream_uri="http://streams.radiobob.de/metalcore/mp3-128/streams.radiobob.de/" }
+Switch iWebradio_Radio_Bob_Metallica "Radio Bob Metallica" (gWebradio_Radio_Bob) { stream_uri="http://streams.radiobob.de/metallica/mp3-128/streams.radiobob.de/" }
+Switch iWebradio_Radio_Bob_Mittelalter_Rock "Radio Bob Mittelalter Rock" (gWebradio_Radio_Bob) { stream_uri="http://streams.radiobob.de/mittelalter/mp3-128/streams.radiobob.de/" }
+Switch iWebradio_Radio_Bob_Newcomer "Radio Bob Newcomer" (gWebradio_Radio_Bob) { stream_uri="http://streams.radiobob.de/newcomer/mp3-128/streams.radiobob.de/" }
+Switch iWebradio_Radio_Bob_Dunkle_Parabel_Ritter "Radio Bob Dunkle Parabel Ritter" (gWebradio_Radio_Bob) { stream_uri="http://streams.radiobob.de/ritter/mp3-128/streams.radiobob.de/" }
+Switch iWebradio_Radio_Bob_Rockparty "Radio Bob Rockparty" (gWebradio_Radio_Bob) { stream_uri="http://streams.radiobob.de/rockparty/mp3-128/streams.radiobob.de/" }
+Switch iWebradio_Radio_Bob_Tobias_Sammet "Radio Bob Tobias Sammet" (gWebradio_Radio_Bob) { stream_uri="http://streams.radiobob.de/sammet/mp3-128/streams.radiobob.de/" }
+Switch iWebradio_Radio_Bob_Southern_Rock "Radio Bob Southern Rock" (gWebradio_Radio_Bob) { stream_uri="http://streams.radiobob.de/southernrock/mp3-128/streams.radiobob.de/" }
+Switch iWebradio_Radio_Bob_Symphonic_Metal "Radio Bob Symphonic Metal" (gWebradio_Radio_Bob) { stream_uri="http://streams.radiobob.de/symphmetal/mp3-128/streams.radiobob.de/" }
+Switch iWebradio_Radio_Bob_Livestream "Radio Bob Livestream" (gWebradio_Radio_Bob) { stream_uri="http://streams.radiobob.de/bob-live/mp3-128/streams.radiobob.de/" }
+Switch iWebradio_Radio_Bob_Livestream_Hessen_Mitte "Radio Bob Livestream Hessen Mitte" (gWebradio_Radio_Bob) { stream_uri="http://streams.radiobob.de/live-hessen-mitte/mp3-128/streams.radiobob.de/" }
+Switch iWebradio_Radio_Bob_Livestream_National_Mitte "Radio Bob Livestream National Mitte" (gWebradio_Radio_Bob) { stream_uri="http://streams.radiobob.de/live-national-mitte/mp3-128/streams.radiobob.de/" }
+Switch iWebradio_Radio_Bob_Livestream_NRW "Radio Bob Livestream NRW" (gWebradio_Radio_Bob) { stream_uri="http://streams.radiobob.de/live-nrw-mitte/mp3-128/streams.radiobob.de/" }
+Switch iWebradio_Radio_Bob_Livestream_SH_Mitte "Radio Bob Livestream SH Mitte" (gWebradio_Radio_Bob) { stream_uri="http://streams.radiobob.de/live-sh-mitte/mp3-128/streams.radiobob.de/" }
+Switch iWebradio_Radio_Bob_Livestream_SH_Nordwest "Radio Bob Livestream SH Nordwest" (gWebradio_Radio_Bob) { stream_uri="http://streams.radiobob.de/live-sh-nordwest/mp3-128/streams.radiobob.de/" }
+Switch iWebradio_Radio_Bob_Livestream_SH_Ost "Radio Bob Livestream SH Ost" (gWebradio_Radio_Bob) { stream_uri="http://streams.radiobob.de/live-sh-ost/mp3-128/streams.radiobob.de/" }
+Switch iWebradio_Radio_Bob_Livestream_SH_Sued "Radio Bob Livestream SH Sued" (gWebradio_Radio_Bob) { stream_uri="http://streams.radiobob.de/live-sh-sued/mp3-128/streams.radiobob.de/" }
+
+Group gWebradio_Radio_Bremen "Radio Bremen" <receiver> (gWebradio)
+
+Switch iWebradio_Radio_Bremen_Eins "Radio Bremen Eins" (gWebradio_Radio_Bremen) { stream_uri="https://icecast.radiobremen.de/rb/bremeneins/live/mp3/128/stream.mp3" }
+Switch iWebradio_Radio_Bremen_Zwei "Radio Bremen Zwei" (gWebradio_Radio_Bremen) { stream_uri="https://icecast.radiobremen.de/rb/bremenzwei/live/mp3/128/stream.mp3" }
+Switch iWebradio_Radio_Bremen_Vier "Radio Bremen Vier" (gWebradio_Radio_Bremen) { stream_uri="https://icecast.radiobremen.de/rb/bremenvier/live/mp3/128/stream.mp3" }
+Switch iWebradio_Radio_Bremen_Next "Radio Bremen Next" (gWebradio_Radio_Bremen) { stream_uri="https://icecast.radiobremen.de/rb/bremennext/live/mp3/128/stream.mp3" }
+
+Group gWebradio_Radio_Charivari "Radio Charivari" <receiver> (gWebradio)
+
+Switch iWebradio_Radio_Charivari_Muenchen "Radio Charivari Muenchen" (gWebradio_Radio_Charivari) { stream_uri="http://www.charivari.de/webradio/r8082.m3u" }
+
+Group gWebradio_Radio_Galaxy "Radio Galaxy" <receiver> (gWebradio)
+
+
+Group gWebradio_Radio_Lausitz "Radio Lausitz" <receiver> (gWebradio)
+
+Switch iWebradio_Radio_Lausitz "Radio Lausitz" (gWebradio_Radio_Lausitz) { stream_uri="https://hermes.bcs-systems.de/radio-lausitz_simulcast_192k_mp3" }
+Switch iWebradio_Radio_Lausitz_Xmas "Radio Lausitz Xmas" (gWebradio_Radio_Lausitz) { stream_uri="http://streaming.radiolausitz.de/radio-lausitz_XMAS_192k_mp3" }
+Switch iWebradio_Radio_Lausitz_80er "Radio Lausitz 80er" (gWebradio_Radio_Lausitz) { stream_uri="http://streaming.radiolausitz.de/radio-lausitz_80er_192k_mp3" }
+Switch iWebradio_Radio_Lausitz_90er "Radio Lausitz 90er" (gWebradio_Radio_Lausitz) { stream_uri="http://streaming.radiolausitz.de/radio-lausitz_90er_192k_mp3" }
+
+Group gWebradio_Radio_NRW "Radio NRW" <receiver> (gWebradio)
+
+Switch iWebradio_Antenne_AC "Antenne AC" (gWebradio_Radio_NRW) { stream_uri="http://mp3.antenneac.c.nmdn.net/ps-antenneac/livestream.mp3" }
+Switch iWebradio_NE_WS "NE WS" (gWebradio_Radio_NRW) { stream_uri="http://mp3.news894.c.nmdn.net/news894/livestream.mp3" }
+Switch iWebradio_Radio_Koeln "Radio Koeln" (gWebradio_Radio_NRW) { stream_uri="http://mp3.radiokoeln.c.nmdn.net/ps-radiokoeln/livestream.mp3" }
+
+Group gWebradio_Radio_Regenbogen "Radio Regenbogen" <receiver> (gWebradio)
+
+
+Group gWebradio_radio_TOP_40 "radio TOP 40" <receiver> (gWebradio)
+
+
+Group gWebradio_Rock_Antenne "Rock Antenne" <receiver> (gWebradio)
+
+Switch iWebradio_Rock_Antenne_Alternative "Rock Antenne Alternative" (gWebradio_Rock_Antenne) { stream_uri="http://mp3channels.webradio.rockantenne.de/alternative" }
+Switch iWebradio_Rock_Antenne_Classic_Perlen "Rock Antenne Classic Perlen" (gWebradio_Rock_Antenne) { stream_uri="http://mp3channels.webradio.rockantenne.de/classic-perlen" }
+Switch iWebradio_Rock_Antenne_Heavy_Metal "Rock Antenne Heavy Metal" (gWebradio_Rock_Antenne) { stream_uri="http://mp3channels.webradio.rockantenne.de/heavy-metal" }
+
+Group gWebradio_rbb "Radio Berlin Brandenburg (rbb)" <receiver> (gWebradio)
+
+Switch iWebradio_rbb_Antenne_Brandenburg "rbb Antenne Brandenburg" (gWebradio_rbb) { stream_uri="http://antennebrandenburg.de/livemp3" }
+Switch iWebradio_rbb_88_8_Berlin "rbb 88 8 Berlin" (gWebradio_rbb) { stream_uri="http://rbb888.de/livemp3" }
+Switch iWebradio_rbb_Fritz "rbb Fritz" (gWebradio_rbb) { stream_uri="http://fritz.de/livemp3" }
+Switch iWebradio_rbb_24_Inforadio "rbb 24 Inforadio" (gWebradio_rbb) { stream_uri="http://inforadio.de/livemp3" }
+Switch iWebradio_rbb_Kultur "rbb Kultur" (gWebradio_rbb) { stream_uri="http://rbbkultur.de/livemp3" }
+
+Group gWebradio_Sunshine_Live "Sunshine Live" <receiver> (gWebradio)
+
+Switch iWebradio_Sunshine_Live "Sunshine Live" (gWebradio_Sunshine_Live) { stream_uri="http://stream.sunshine-live.de/live/mp3-192" }
+Switch iWebradio_Sunshine_Live_House "Sunshine Live House" (gWebradio_Sunshine_Live) { stream_uri="http://stream.sunshine-live.de/house/mp3-192" }
+Switch iWebradio_Sunshine_Live_EDM "Sunshine Live EDM" (gWebradio_Sunshine_Live) { stream_uri="http://stream.sunshine-live.de/edm/mp3-192" }
+Switch iWebradio_Sunshine_Live_Classics "Sunshine Live Classics" (gWebradio_Sunshine_Live) { stream_uri="http://stream.sunshine-live.de/classics/mp3-192" }
+Switch iWebradio_Sunshine_Live_Trance "Sunshine Live Trance" (gWebradio_Sunshine_Live) { stream_uri="http://stream.sunshine-live.de/trance/mp3-192" }
+Switch iWebradio_Sunshine_Live_Hard "Sunshine Live Hard" (gWebradio_Sunshine_Live) { stream_uri="http://stream.sunshine-live.de/hard/mp3-192" }
+Switch iWebradio_Sunshine_Live_Techno "Sunshine Live Techno" (gWebradio_Sunshine_Live) { stream_uri="http://stream.sunshine-live.de/techno/mp3-192" }
+Switch iWebradio_Sunshine_Live_Lounge "Sunshine Live Lounge" (gWebradio_Sunshine_Live) { stream_uri="http://stream.sunshine-live.de/lounge/mp3-192" }
+Switch iWebradio_Sunshine_Live_90er "Sunshine Live 90er" (gWebradio_Sunshine_Live) { stream_uri="http://stream.sunshine-live.de/90er/mp3-192" }
+Switch iWebradio_Sunshine_Live_Festival "Sunshine Live Festival" (gWebradio_Sunshine_Live) { stream_uri="http://stream.sunshine-live.de/festival/mp3-192" }
+Switch iWebradio_Sunshine_Live_DNB "Sunshine Live DNB" (gWebradio_Sunshine_Live) { stream_uri="http://stream.sunshine-live.de/dnb/mp3-192" }
+Switch iWebradio_Sunshine_Live_Handsup "Sunshine Live Handsup" (gWebradio_Sunshine_Live) { stream_uri="http://stream.sunshine-live.de/handsup/mp3-192" }
+Switch iWebradio_Sunshine_Live_Mayday "Sunshine Live Mayday" (gWebradio_Sunshine_Live) { stream_uri="http://stream.sunshine-live.de/mayday/mp3-192" }
+Switch iWebradio_Sunshine_Live_Natureone "Sunshine Live Natureone" (gWebradio_Sunshine_Live) { stream_uri="http://stream.sunshine-live.de/natureone/mp3-192" }
+Switch iWebradio_Sunshine_Live_Timewarp "Sunshine Live Timewarp" (gWebradio_Sunshine_Live) { stream_uri="http://stream.sunshine-live.de/timewarp/mp3-192" }
+Switch iWebradio_Sunshine_Live_Relax "Sunshine Live Relax" (gWebradio_Sunshine_Live) { stream_uri="http://stream.sunshine-live.de/relax/mp3-192" }
+Switch iWebradio_Sunshine_Live_80er "Sunshine Live 80er" (gWebradio_Sunshine_Live) { stream_uri="http://stream.sunshine-live.de/80er/mp3-192" }
+Switch iWebradio_Sunshine_Live_2000er "Sunshine Live 2000er" (gWebradio_Sunshine_Live) { stream_uri="http://stream.sunshine-live.de/2000er/mp3-192" }
+Switch iWebradio_Sunshine_Live_Chillout "Sunshine Live Chillout" (gWebradio_Sunshine_Live) { stream_uri="http://stream.sunshine-live.de/sp8/mp3-192" }
+Switch iWebradio_Sunshine_Live_Summer_Beats "Sunshine Live Summer Beats" (gWebradio_Sunshine_Live) { stream_uri="http://stream.sunshine-live.de/sp2/mp3-192" }
+Switch iWebradio_Sunshine_Live_Tech_House "Sunshine Live Tech House" (gWebradio_Sunshine_Live) { stream_uri="http://stream.sunshine-live.de/sp4/mp3-192" }
+Switch iWebradio_Sunshine_Live_90s_Anthems "Sunshine Live 90s Anthems" (gWebradio_Sunshine_Live) { stream_uri="http://stream.sunshine-live.de/sp5/mp3-192" }
+Switch iWebradio_Sunshine_Live_Charts "Sunshine Live Charts" (gWebradio_Sunshine_Live) { stream_uri="http://stream.sunshine-live.de/sp6/mp3-192" }
+Switch iWebradio_Sunshine_Live_Afterhour "Sunshine Live Afterhour" (gWebradio_Sunshine_Live) { stream_uri="http://stream.sunshine-live.de/sp7/mp3-192" }
+Switch iWebradio_Sunshine_Live_Avicii "Sunshine Live Avicii" (gWebradio_Sunshine_Live) { stream_uri="http://stream.sunshine-live.de/avicii/mp3-192" }
+Switch iWebradio_Sunshine_Live_Vocalhouse "Sunshine Live Vocalhouse" (gWebradio_Sunshine_Live) { stream_uri="http://stream.sunshine-live.de/vocalhouse/mp3-192" }
+Switch iWebradio_Sunshine_Live_Tropicalhouse "Sunshine Live Tropicalhouse" (gWebradio_Sunshine_Live) { stream_uri="http://stream.sunshine-live.de/tropicalhouse/mp3-192" }
+Switch iWebradio_Sunshine_Live_Pride "Sunshine Live Pride" (gWebradio_Sunshine_Live) { stream_uri="http://stream.sunshine-live.de/pride/mp3-192" }
+Switch iWebradio_Sunshine_Live_Prodigy "Sunshine Live Prodigy" (gWebradio_Sunshine_Live) { stream_uri="http://stream.sunshine-live.de/prodigy/mp3-192" }
+Switch iWebradio_Sunshine_Live_Focus "Sunshine Live Focus" (gWebradio_Sunshine_Live) { stream_uri="http://stream.sunshine-live.de/focus/mp3-192" }
+Switch iWebradio_Sunshine_Live_Winter_Chill "Sunshine Live Winter Chill" (gWebradio_Sunshine_Live) { stream_uri="http://stream.sunshine-live.de/winterchill/mp3-192" }
+Switch iWebradio_Sunshine_Live_I_am_raving "Sunshine Live I am raving" (gWebradio_Sunshine_Live) { stream_uri="http://stream.sunshine-live.de/iamraving/mp3-192" }
+Switch iWebradio_Sunshine_Live_Techno_Queens "Sunshine Live Techno Queens" (gWebradio_Sunshine_Live) { stream_uri="http://stream.sunshine-live.de/technoqueens/mp3-192" }
+Switch iWebradio_Sunshine_Live_Depeche_Mode "Sunshine Live Depeche Mode" (gWebradio_Sunshine_Live) { stream_uri="http://stream.sunshine-live.de/depechemode/mp3-192" }
+Switch iWebradio_Sunshine_Live_Melodic_Beats "Sunshine Live Melodic Beats" (gWebradio_Sunshine_Live) { stream_uri="http://stream.sunshine-live.de/melodic-live/mp3-192" }
+Switch iWebradio_Sunshine_Live_Bunker "Sunshine Live Bunker" (gWebradio_Sunshine_Live) { stream_uri="http://stream.sunshine-live.de/amsterdam/mp3-192" }
+Switch iWebradio_Sunshine_Live_Psytrance "Sunshine Live Psytrance" (gWebradio_Sunshine_Live) { stream_uri="http://stream.sunshine-live.de/xmas/mp3-192" }
+Switch iWebradio_Sunshine_Live_Ibiza "Sunshine Live Ibiza" (gWebradio_Sunshine_Live) { stream_uri="http://stream.sunshine-live.de/ibiza/mp3-192" }
+Switch iWebradio_Sunshine_Live_Twenty "Sunshine Live Twenty" (gWebradio_Sunshine_Live) { stream_uri="http://stream.sunshine-live.de/twenty/mp3-192" }
+Switch iWebradio_Sunshine_Live_Eurodance "Sunshine Live Eurodance" (gWebradio_Sunshine_Live) { stream_uri="http://stream.sunshine-live.de/eurodance/mp3-192" }
+Switch iWebradio_Sunshine_Live_Remix "Sunshine Live Remix" (gWebradio_Sunshine_Live) { stream_uri="http://stream.sunshine-live.de/germante/mp3-192" }
+Switch iWebradio_Sunshine_Live_Melodic_Techno "Sunshine Live Melodic Techno" (gWebradio_Sunshine_Live) { stream_uri="http://stream.sunshine-live.de/melodic-techno/mp3-192" }
+Switch iWebradio_Sunshine_Live_Gaming "Sunshine Live Gaming" (gWebradio_Sunshine_Live) { stream_uri="http://stream.sunshine-live.de/gamescom/mp3-192" }
+Switch iWebradio_Sunshine_Live_Party "Sunshine Live Party" (gWebradio_Sunshine_Live) { stream_uri="http://stream.sunshine-live.de/party/mp3-192" }
+Switch iWebradio_Sunshine_Live_Clubsound_Berlin "Sunshine Live Clubsound Berlin" (gWebradio_Sunshine_Live) { stream_uri="http://stream.sunshine-live.de/playlist1/mp3-192" }
+Switch iWebradio_Sunshine_Live_Workout "Sunshine Live Workout" (gWebradio_Sunshine_Live) { stream_uri="http://stream.sunshine-live.de/workout/mp3-192" }
+Switch iWebradio_Sunshine_Live_Futurebass "Sunshine Live Futurebass" (gWebradio_Sunshine_Live) { stream_uri="http://stream.sunshine-live.de/futurebass/mp3-192" }
+Switch iWebradio_Sunshine_Live_Newhits "Sunshine Live Newhits" (gWebradio_Sunshine_Live) { stream_uri="http://stream.sunshine-live.de/newhits/mp3-192" }
+Switch iWebradio_Sunshine_Live_Love "Sunshine Live Love" (gWebradio_Sunshine_Live) { stream_uri="http://stream.sunshine-live.de/love/mp3-192" }
+Switch iWebradio_Sunshine_Live_Backstage "Sunshine Live Backstage" (gWebradio_Sunshine_Live) { stream_uri="http://stream.sunshine-live.de/backstage/mp3-192" }
+
+Group gWebradio_Saarlaendischer_Rundfunk "Saarländischer Rundfunk (SR)" <receiver> (gWebradio)
+
+Switch iWebradio_SR1 "SR1" (gWebradio_Saarlaendischer_Rundfunk) { stream_uri="http://streaming01.sr-online.de/sr1_2.m3u" }
+Switch iWebradio_SR1_LikeOMat "SR1 LikeOMat" (gWebradio_Saarlaendischer_Rundfunk) { stream_uri="http://streaming02.sr-online.de/sr1like-o-mat.m3u" }
+Switch iWebradio_SR1_Lounge "SR1 Lounge" (gWebradio_Saarlaendischer_Rundfunk) { stream_uri="http://streaming02.sr-online.de/sr1lounge.m3u" }
+Switch iWebradio_SR2 "SR2" (gWebradio_Saarlaendischer_Rundfunk) { stream_uri="http://streaming01.sr-online.de/sr2_2.m3u" }
+Switch iWebradio_SR2_Offbeat "SR2 Offbeat" (gWebradio_Saarlaendischer_Rundfunk) { stream_uri="http://streaming02.sr-online.de/sr2offbeat.m3u" }
+Switch iWebradio_SR3 "SR3" (gWebradio_Saarlaendischer_Rundfunk) { stream_uri="http://streaming01.sr-online.de/sr3_2.m3u" }
+Switch iWebradio_SR3_Oldiewelt "SR3 Oldiewelt" (gWebradio_Saarlaendischer_Rundfunk) { stream_uri="http://streaming02.sr-online.de/sr3oldiewelt.m3u" }
+Switch iWebradio_SR3_Schlagerwelt "SR3 Schlagerwelt" (gWebradio_Saarlaendischer_Rundfunk) { stream_uri="http://streaming02.sr-online.de/sr3schlagerwelt.m3u" }
+Switch iWebradio_Antenne_Saar "Antenne Saar" (gWebradio_Saarlaendischer_Rundfunk) { stream_uri="http://streaming01.sr-online.de/antennesaar_2.m3u" }
+Switch iWebradio_Unser_Ding "Unser Ding" (gWebradio_Saarlaendischer_Rundfunk) { stream_uri="http://streaming01.sr-online.de/unserding_2.m3u" }
+Switch iWebradio_Unser_Ding_Schwarz "Unser Ding Schwarz" (gWebradio_Saarlaendischer_Rundfunk) { stream_uri="http://streaming02.sr-online.de/unserding-schwarz.m3u" }
+Switch iWebradio_Unser_Ding_Zukunft "Unser Ding Zukunft" (gWebradio_Saarlaendischer_Rundfunk) { stream_uri="http://streaming02.sr-online.de/unserding-zukunft.m3u" }
+
+Group gWebradio_Westdeutscher_Rundfunk "Westdeutscher Rundfunk (WDR)" <receiver> (gWebradio)
+
+Switch iWebradio_1LIVE "1LIVE" (gWebradio_Westdeutscher_Rundfunk) { stream_uri="http://wdr-1live-live.icecast.wdr.de/wdr/1live/live/mp3/128/stream.mp3" }
+Switch iWebradio_1LIVE_diggi "1LIVE diggi" (gWebradio_Westdeutscher_Rundfunk) { stream_uri="http://wdr-1live-diggi.icecast.wdr.de/wdr/1live/diggi/mp3/128/stream.mp3" }
+Switch iWebradio_1LIVE_Plan_B "1LIVE Plan B" (gWebradio_Westdeutscher_Rundfunk) { stream_uri="http://wdr-1live-planb.icecast.wdr.de/wdr/1live/planb/mp3/128/stream.mp3" }
+Switch iWebradio_1LIVE_DJ_Session "1LIVE DJ Session" (gWebradio_Westdeutscher_Rundfunk) { stream_uri="http://wdr-1live-djsession.icecast.wdr.de/wdr/1live/djsession/mp3/128/stream.mp3" }
+Switch iWebradio_1LIVE_Neu_fuer_den_Sektor "1LIVE Neu fuer den Sektor" (gWebradio_Westdeutscher_Rundfunk) { stream_uri="http://wdr-1live-neufuerdensektor.icecast.wdr.de/wdr/1live/neufuerdensektor/mp3/128/stream.mp3" }
+Switch iWebradio_1LIVE_HipHop "1LIVE HipHop" (gWebradio_Westdeutscher_Rundfunk) { stream_uri="http://wdr-1live-hiphop.icecast.wdr.de/wdr/1live/hiphop/mp3/128/stream.mp3" }
+Switch iWebradio_1LIVE_Specials "1LIVE Specials" (gWebradio_Westdeutscher_Rundfunk) { stream_uri="http://wdr-1live-specials.icecast.wdr.de/wdr/1live/specials/mp3/128/stream.mp3" }
+Switch iWebradio_1LIVE_Klubbing "1LIVE Klubbing" (gWebradio_Westdeutscher_Rundfunk) { stream_uri="http://www.wdr.de/wdrlive/media/1live_klubbing.m3u" }
+Switch iWebradio_1LIVE_Kassettendeck "1LIVE Kassettendeck" (gWebradio_Westdeutscher_Rundfunk) { stream_uri="http://www.wdr.de/wdrlive/media/1live_kassettendeck.m3u" }
+Switch iWebradio_1LIVE_FIEHE "1LIVE FIEHE" (gWebradio_Westdeutscher_Rundfunk) { stream_uri="http://wdr-1live-fiehe.icecast.wdr.de/wdr/1live/fiehe/mp3/128/stream.mp3" }
+Switch iWebradio_WDR2_Rheinland "WDR2 Rheinland" (gWebradio_Westdeutscher_Rundfunk) { stream_uri="http://wdr-wdr2-rheinland.icecast.wdr.de/wdr/wdr2/rheinland/mp3/128/stream.mp3" }
+Switch iWebradio_WDR2_Ostwestfalen "WDR2 Ostwestfalen" (gWebradio_Westdeutscher_Rundfunk) { stream_uri="http://wdr-wdr2-ostwestfalenlippe.icecast.wdr.de/wdr/wdr2/ostwestfalenlippe/mp3/128/stream.mp3" }
+Switch iWebradio_WDR2_Muensterland "WDR2 Muensterland" (gWebradio_Westdeutscher_Rundfunk) { stream_uri="http://wdr-wdr2-muensterland.icecast.wdr.de/wdr/wdr2/muensterland/mp3/128/stream.mp3" }
+Switch iWebradio_WDR2_Ruhrgebiet "WDR2 Ruhrgebiet" (gWebradio_Westdeutscher_Rundfunk) { stream_uri="http://wdr-wdr2-ruhrgebiet.icecast.wdr.de/wdr/wdr2/ruhrgebiet/mp3/128/stream.mp3" }
+Switch iWebradio_WDR2_Bergisches_Land "WDR2 Bergisches Land" (gWebradio_Westdeutscher_Rundfunk) { stream_uri="http://wdr-wdr2-bergischesland.icecast.wdr.de/wdr/wdr2/bergischesland/mp3/128/stream.mp3" }
+Switch iWebradio_WDR2_Suedwestfalen "WDR2 Suedwestfalen" (gWebradio_Westdeutscher_Rundfunk) { stream_uri="http://wdr-wdr2-suedwestfalen.icecast.wdr.de/wdr/wdr2/suedwestfalen/mp3/128/stream.mp3" }
+Switch iWebradio_WDR2_Aachen "WDR2 Aachen" (gWebradio_Westdeutscher_Rundfunk) { stream_uri="http://wdr-wdr2-aachenundregion.icecast.wdr.de/wdr/wdr2/aachenundregion/mp3/128/stream.mp3" }
+Switch iWebradio_WDR3 "WDR3" (gWebradio_Westdeutscher_Rundfunk) { stream_uri="http://wdr-wdr3-live.icecast.wdr.de/wdr/wdr3/live/mp3/128/stream.mp3" }
+Switch iWebradio_WDR3_HQ "WDR3 HQ" (gWebradio_Westdeutscher_Rundfunk) { stream_uri="http://wdr-wdr3-live.icecast.wdr.de/wdr/wdr3/live/mp3/256/stream.mp3" }
+Switch iWebradio_WDR4 "WDR4" (gWebradio_Westdeutscher_Rundfunk) { stream_uri="http://wdr-wdr4-live.icecast.wdr.de/wdr/wdr4/live/mp3/128/stream.mp3" }
+Switch iWebradio_WDR5 "WDR5" (gWebradio_Westdeutscher_Rundfunk) { stream_uri="http://wdr-wdr5-live.icecast.wdr.de/wdr/wdr5/live/mp3/128/stream.mp3" }
+Switch iWebradio_WDR_Event "WDR Event" (gWebradio_Westdeutscher_Rundfunk) { stream_uri="http://wdr-wdr-event.icecast.wdr.de/wdr/wdr/event/mp3/128/stream.mp3" }
+Switch iWebradio_COSMO "COSMO" (gWebradio_Westdeutscher_Rundfunk) { stream_uri="http://wdr-cosmo-live.icecast.wdr.de/wdr/cosmo/live/mp3/128/stream.mp3" }
+Switch iWebradio_WDR_Die_Maus "WDR Die Maus" (gWebradio_Westdeutscher_Rundfunk) { stream_uri="https://wdr-diemaus-live.icecastssl.wdr.de/wdr/diemaus/live/mp3/128/stream.mp3" }

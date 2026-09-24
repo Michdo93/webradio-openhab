@@ -1,0 +1,1706 @@
+[
+  {
+    "itemname": "iWebradio_88vier",
+    "label": "88vier"
+  },
+  {
+    "itemname": "iWebradio_Antenne_MV",
+    "label": "Antenne MV"
+  },
+  {
+    "itemname": "iWebradio_Antenne_Thueringen",
+    "label": "Antenne Thueringen"
+  },
+  {
+    "itemname": "iWebradio_bermuda_funk",
+    "label": "bermuda funk"
+  },
+  {
+    "itemname": "iWebradio_BLACKBEATS_FM",
+    "label": "BLACKBEATS FM"
+  },
+  {
+    "itemname": "iWebradio_ByteFM",
+    "label": "ByteFM"
+  },
+  {
+    "itemname": "iWebradio_delta_radio",
+    "label": "delta radio"
+  },
+  {
+    "itemname": "iWebradio_Die_Neue_Welle",
+    "label": "Die Neue Welle"
+  },
+  {
+    "itemname": "iWebradio_eldoradio",
+    "label": "eldoradio"
+  },
+  {
+    "itemname": "iWebradio_ffn_Niedersachsen",
+    "label": "ffn Niedersachsen"
+  },
+  {
+    "itemname": "iWebradio_Harmony_FM",
+    "label": "Harmony FM"
+  },
+  {
+    "itemname": "iWebradio_Kiss_FM_Berlin",
+    "label": "Kiss FM Berlin"
+  },
+  {
+    "itemname": "iWebradio_Klassik_Radio",
+    "label": "Klassik Radio"
+  },
+  {
+    "itemname": "iWebradio_Landeswelle_Thueringen",
+    "label": "Landeswelle Thueringen"
+  },
+  {
+    "itemname": "iWebradio_LORA_Muenchen_92_4",
+    "label": "LORA Muenchen 92 4"
+  },
+  {
+    "itemname": "iWebradio_LOHRO",
+    "label": "LOHRO"
+  },
+  {
+    "itemname": "iWebradio_NOXX",
+    "label": "NOXX"
+  },
+  {
+    "itemname": "iWebradio_Offener_Hoerfunkkanal_Eisenach",
+    "label": "Offener Hoerfunkkanal Eisenach"
+  },
+  {
+    "itemname": "iWebradio_Planet_Radio",
+    "label": "Planet Radio"
+  },
+  {
+    "itemname": "iWebradio_Querfunk",
+    "label": "Querfunk"
+  },
+  {
+    "itemname": "iWebradio_Radio_Blau",
+    "label": "Radio Blau"
+  },
+  {
+    "itemname": "iWebradio_Radio_Corax",
+    "label": "Radio Corax"
+  },
+  {
+    "itemname": "iWebradio_Radio_Dreyeckland",
+    "label": "Radio Dreyeckland"
+  },
+  {
+    "itemname": "iWebradio_Radio_F_94_5_Nuernberg",
+    "label": "Radio F 94 5 Nuernberg"
+  },
+  {
+    "itemname": "iWebradio_Radio_Gong_97_1_Nuernberg",
+    "label": "Radio Gong 97 1 Nuernberg"
+  },
+  {
+    "itemname": "iWebradio_Radio_Mainwelle_Bayreuth_104_3",
+    "label": "Radio Mainwelle Bayreuth 104 3"
+  },
+  {
+    "itemname": "iWebradio_Radio_N1_92_9_Nuernberg",
+    "label": "Radio N1 92 9 Nuernberg"
+  },
+  {
+    "itemname": "iWebradio_Radio_PSR",
+    "label": "Radio PSR"
+  },
+  {
+    "itemname": "iWebradio_Radio_StHoerfunk",
+    "label": "Radio StHoerfunk"
+  },
+  {
+    "itemname": "iWebradio_Radio_T",
+    "label": "Radio T"
+  },
+  {
+    "itemname": "iWebradio_Radio_Z",
+    "label": "Radio Z"
+  },
+  {
+    "itemname": "iWebradio_SachsenAnhalt_Welle",
+    "label": "SachsenAnhalt Welle"
+  },
+  {
+    "itemname": "iWebradio_Antenne1",
+    "label": "Antenne1"
+  },
+  {
+    "itemname": "iWebradio_Antenne1_Live",
+    "label": "Antenne1 Live"
+  },
+  {
+    "itemname": "iWebradio_Antenne1_80er",
+    "label": "Antenne1 80er"
+  },
+  {
+    "itemname": "iWebradio_Antenne1_90er",
+    "label": "Antenne1 90er"
+  },
+  {
+    "itemname": "iWebradio_Antenne1_2000er",
+    "label": "Antenne1 2000er"
+  },
+  {
+    "itemname": "iWebradio_Antenne1_Top40",
+    "label": "Antenne1 Top40"
+  },
+  {
+    "itemname": "iWebradio_Antenne1_ClassicRock",
+    "label": "Antenne1 ClassicRock"
+  },
+  {
+    "itemname": "iWebradio_Antenne1_ModernRock",
+    "label": "Antenne1 ModernRock"
+  },
+  {
+    "itemname": "iWebradio_Antenne1_SoftNLazy",
+    "label": "Antenne1 SoftNLazy"
+  },
+  {
+    "itemname": "iWebradio_Antenne1_WeihnachtsHits",
+    "label": "Antenne1 WeihnachtsHits"
+  },
+  {
+    "itemname": "iWebradio_Antenne1_SommerHits",
+    "label": "Antenne1 SommerHits"
+  },
+  {
+    "itemname": "iWebradio_Antenne1_DeutschPop",
+    "label": "Antenne1 DeutschPop"
+  },
+  {
+    "itemname": "iWebradio_Antenne1_PartyKracher",
+    "label": "Antenne1 PartyKracher"
+  },
+  {
+    "itemname": "iWebradio_Antenne1_UnpluggedAcoustic",
+    "label": "Antenne1 UnpluggedAcoustic"
+  },
+  {
+    "itemname": "iWebradio_Antenne1_Oldies",
+    "label": "Antenne1 Oldies"
+  },
+  {
+    "itemname": "iWebradio_Antenne1_InTheMix",
+    "label": "Antenne1 InTheMix"
+  },
+  {
+    "itemname": "iWebradio_Antenne1_Schlager",
+    "label": "Antenne1 Schlager"
+  },
+  {
+    "itemname": "iWebradio_RTL_Berlin",
+    "label": "RTL Berlin"
+  },
+  {
+    "itemname": "iWebradio_Antenne_Bayern",
+    "label": "Antenne Bayern"
+  },
+  {
+    "itemname": "iWebradio_Antenne_Bayern_80er_Kulthits",
+    "label": "Antenne Bayern 80er Kulthits"
+  },
+  {
+    "itemname": "iWebradio_Antenne_Bayern_90er_Hits",
+    "label": "Antenne Bayern 90er Hits"
+  },
+  {
+    "itemname": "iWebradio_Antenne_Bayern_Black_Beatz",
+    "label": "Antenne Bayern Black Beatz"
+  },
+  {
+    "itemname": "iWebradio_Antenne_Bayern_Chillout",
+    "label": "Antenne Bayern Chillout"
+  },
+  {
+    "itemname": "iWebradio_Antenne_Bayern_Classic_Rock_Live",
+    "label": "Antenne Bayern Classic Rock Live"
+  },
+  {
+    "itemname": "iWebradio_Antenne_Bayern_Event",
+    "label": "Antenne Bayern Event"
+  },
+  {
+    "itemname": "iWebradio_Antenne_Bayern_Fresh",
+    "label": "Antenne Bayern Fresh"
+  },
+  {
+    "itemname": "iWebradio_Antenne_Bayern_Hits_fuer_Kids",
+    "label": "Antenne Bayern Hits fuer Kids"
+  },
+  {
+    "itemname": "iWebradio_Antenne_Bayern_Lovesongs",
+    "label": "Antenne Bayern Lovesongs"
+  },
+  {
+    "itemname": "iWebradio_Antenne_Bayern_Oldies_but_Goldies",
+    "label": "Antenne Bayern Oldies but Goldies"
+  },
+  {
+    "itemname": "iWebradio_Antenne_Bayern_Rockantenne",
+    "label": "Antenne Bayern Rockantenne"
+  },
+  {
+    "itemname": "iWebradio_Antenne_Bayern_Das_Schlager_Karussell",
+    "label": "Antenne Bayern Das Schlager Karussell"
+  },
+  {
+    "itemname": "iWebradio_Antenne_Bayern_Top40",
+    "label": "Antenne Bayern Top40"
+  },
+  {
+    "itemname": "iWebradio_Antenne_Bayern_Weihnachts_Hits",
+    "label": "Antenne Bayern Weihnachts Hits"
+  },
+  {
+    "itemname": "iWebradio_Antenne_Bayern_Workout_Hits",
+    "label": "Antenne Bayern Workout Hits"
+  },
+  {
+    "itemname": "iWebradio_Bayern1",
+    "label": "Bayern1"
+  },
+  {
+    "itemname": "iWebradio_Bayern2",
+    "label": "Bayern2"
+  },
+  {
+    "itemname": "iWebradio_Bayern3",
+    "label": "Bayern3"
+  },
+  {
+    "itemname": "iWebradio_BR_Klassik",
+    "label": "BR Klassik"
+  },
+  {
+    "itemname": "iWebradio_BR24",
+    "label": "BR24"
+  },
+  {
+    "itemname": "iWebradio_BR_Schlager",
+    "label": "BR Schlager"
+  },
+  {
+    "itemname": "iWebradio_BR_Heimat",
+    "label": "BR Heimat"
+  },
+  {
+    "itemname": "iWebradio_bigFM_Deutschland",
+    "label": "bigFM Deutschland"
+  },
+  {
+    "itemname": "iWebradio_bigFM_Charts",
+    "label": "bigFM Charts"
+  },
+  {
+    "itemname": "iWebradio_bigFM_HipHop",
+    "label": "bigFM HipHop"
+  },
+  {
+    "itemname": "iWebradio_bigFM_Deutschrap",
+    "label": "bigFM Deutschrap"
+  },
+  {
+    "itemname": "iWebradio_bigFM_US_Rap_And_HipHop",
+    "label": "bigFM US Rap And HipHop"
+  },
+  {
+    "itemname": "iWebradio_bigFM_Oldschool_Rap_And_HipHop",
+    "label": "bigFM Oldschool Rap And HipHop"
+  },
+  {
+    "itemname": "iWebradio_bigFM_Dance",
+    "label": "bigFM Dance"
+  },
+  {
+    "itemname": "iWebradio_bigFM_Mashup",
+    "label": "bigFM Mashup"
+  },
+  {
+    "itemname": "iWebradio_bigFM_Sunset_Lounge",
+    "label": "bigFM Sunset Lounge"
+  },
+  {
+    "itemname": "iWebradio_bigFM_Reggae_Vibez",
+    "label": "bigFM Reggae Vibez"
+  },
+  {
+    "itemname": "iWebradio_bigFM_Latin_Beats",
+    "label": "bigFM Latin Beats"
+  },
+  {
+    "itemname": "iWebradio_bigFM_Groovenight",
+    "label": "bigFM Groovenight"
+  },
+  {
+    "itemname": "iWebradio_bigFM_Urban_Club_Beats",
+    "label": "bigFM Urban Club Beats"
+  },
+  {
+    "itemname": "iWebradio_bigFM_EDM_And_PROGRESSIVE",
+    "label": "bigFM EDM And PROGRESSIVE"
+  },
+  {
+    "itemname": "iWebradio_bigFM_DEEP_And_Tech_House",
+    "label": "bigFM DEEP And Tech House"
+  },
+  {
+    "itemname": "iWebradio_bigFM_WORLDBEATS",
+    "label": "bigFM WORLDBEATS"
+  },
+  {
+    "itemname": "iWebradio_bigFM_TUERKCE_WEB_RADYOSU",
+    "label": "bigFM TUERKCE WEB RADYOSU"
+  },
+  {
+    "itemname": "iWebradio_bigFM_BW",
+    "label": "bigFM BW"
+  },
+  {
+    "itemname": "iWebradio_bigFM_RP",
+    "label": "bigFM RP"
+  },
+  {
+    "itemname": "iWebradio_detektor_fm_Wortstream",
+    "label": "detektor fm Wortstream"
+  },
+  {
+    "itemname": "iWebradio_detektor_fm_Musikstream",
+    "label": "detektor fm Musikstream"
+  },
+  {
+    "itemname": "iWebradio_Deutschlandfunk",
+    "label": "Deutschlandfunk"
+  },
+  {
+    "itemname": "iWebradio_Deutschlandfunk_Kultur",
+    "label": "Deutschlandfunk Kultur"
+  },
+  {
+    "itemname": "iWebradio_Deutschlandfunk_Nova",
+    "label": "Deutschlandfunk Nova"
+  },
+  {
+    "itemname": "iWebradio_Deutschlandfunk_Dokumente_und_Debatten",
+    "label": "Deutschlandfunk Dokumente und Debatten"
+  },
+  {
+    "itemname": "iWebradio_Energy_Berlin",
+    "label": "NRj Berlin"
+  },
+  {
+    "itemname": "iWebradio_Energy_Hamburg",
+    "label": "NRj Hamburg"
+  },
+  {
+    "itemname": "iWebradio_Energy_Nuernberg",
+    "label": "NRj Nuernberg"
+  },
+  {
+    "itemname": "iWebradio_Energy_Stuttgart",
+    "label": "NRj Stuttgart"
+  },
+  {
+    "itemname": "iWebradio_Energy_Muenchen",
+    "label": "NRj Muenchen"
+  },
+  {
+    "itemname": "iWebradio_Energy_Sachsen",
+    "label": "NRj Sachsen"
+  },
+  {
+    "itemname": "iWebradio_Energy_Bremen",
+    "label": "NRj Bremen"
+  },
+  {
+    "itemname": "iWebradio_Energy_Dance",
+    "label": "NRj Dance"
+  },
+  {
+    "itemname": "iWebradio_Energy_RNB",
+    "label": "NRj RNB"
+  },
+  {
+    "itemname": "iWebradio_Energy_Pop",
+    "label": "NRj Pop"
+  },
+  {
+    "itemname": "iWebradio_Energy_Rock",
+    "label": "NRj Rock"
+  },
+  {
+    "itemname": "iWebradio_Energy_Love",
+    "label": "NRj Love"
+  },
+  {
+    "itemname": "iWebradio_FluxFM",
+    "label": "FluxFM"
+  },
+  {
+    "itemname": "iWebradio_FluxFM_Klubradio",
+    "label": "FluxFM Klubradio"
+  },
+  {
+    "itemname": "iWebradio_FluxFM_BoomFM",
+    "label": "FluxFM BoomFM"
+  },
+  {
+    "itemname": "iWebradio_FluxFM_MetalFM",
+    "label": "FluxFM MetalFM"
+  },
+  {
+    "itemname": "iWebradio_FluxFM_FluxLounge",
+    "label": "FluxFM FluxLounge"
+  },
+  {
+    "itemname": "iWebradio_FluxFM_neoFM",
+    "label": "FluxFM neoFM"
+  },
+  {
+    "itemname": "iWebradio_FluxFM_Riot_Radio",
+    "label": "FluxFM Riot Radio"
+  },
+  {
+    "itemname": "iWebradio_FluxFM_FluxKompensator",
+    "label": "FluxFM FluxKompensator"
+  },
+  {
+    "itemname": "iWebradio_FluxFM_Clubsandwich",
+    "label": "FluxFM Clubsandwich"
+  },
+  {
+    "itemname": "iWebradio_FluxFM_XJAZZ",
+    "label": "FluxFM XJAZZ"
+  },
+  {
+    "itemname": "iWebradio_FluxFM_JaegerMusic_Radio",
+    "label": "FluxFM JaegerMusic Radio"
+  },
+  {
+    "itemname": "iWebradio_FluxFM_Sound_Of_Berlin",
+    "label": "FluxFM Sound Of Berlin"
+  },
+  {
+    "itemname": "iWebradio_FluxFM_FluxForward",
+    "label": "FluxFM FluxForward"
+  },
+  {
+    "itemname": "iWebradio_FluxFM_Techno_Underground",
+    "label": "FluxFM Techno Underground"
+  },
+  {
+    "itemname": "iWebradio_FluxFM_Berlin_Beach_House_Radio",
+    "label": "FluxFM Berlin Beach House Radio"
+  },
+  {
+    "itemname": "iWebradio_FluxFM_Hippie_Trippy_Garden_Pretty",
+    "label": "FluxFM Hippie Trippy Garden Pretty"
+  },
+  {
+    "itemname": "iWebradio_FluxFM_ElektroFlux",
+    "label": "FluxFM ElektroFlux"
+  },
+  {
+    "itemname": "iWebradio_FluxFM_Ohrspiel",
+    "label": "FluxFM Ohrspiel"
+  },
+  {
+    "itemname": "iWebradio_FluxFM_XRadio",
+    "label": "FluxFM XRadio"
+  },
+  {
+    "itemname": "iWebradio_FluxFM_80s",
+    "label": "FluxFM 80s"
+  },
+  {
+    "itemname": "iWebradio_FluxFM_70s",
+    "label": "FluxFM 70s"
+  },
+  {
+    "itemname": "iWebradio_FluxFM_Passport_Approved",
+    "label": "FluxFM Passport Approved"
+  },
+  {
+    "itemname": "iWebradio_FluxFM_Mobys_Vegan_Radio",
+    "label": "FluxFM Mobys Vegan Radio"
+  },
+  {
+    "itemname": "iWebradio_FluxFM_John_Reed_Radio",
+    "label": "FluxFM John Reed Radio"
+  },
+  {
+    "itemname": "iWebradio_FluxFM_Jazzradio_Schwarzenstein",
+    "label": "FluxFM Jazzradio Schwarzenstein"
+  },
+  {
+    "itemname": "iWebradio_FluxFM_BoomFM_Classics",
+    "label": "FluxFM BoomFM Classics"
+  },
+  {
+    "itemname": "iWebradio_Freier_Sender_Kombinat",
+    "label": "Freier Sender Kombinat"
+  },
+  {
+    "itemname": "iWebradio_Freies_Radio_Stuttgart",
+    "label": "Freies Radio Stuttgart"
+  },
+  {
+    "itemname": "iWebradio_Freies_Radio_Wueste_Welle",
+    "label": "Freies Radio Wueste Welle"
+  },
+  {
+    "itemname": "iWebradio_HR2",
+    "label": "HR2"
+  },
+  {
+    "itemname": "iWebradio_HR4_Mittelhessen",
+    "label": "HR4 Mittelhessen"
+  },
+  {
+    "itemname": "iWebradio_HR4_Nordhessen",
+    "label": "HR4 Nordhessen"
+  },
+  {
+    "itemname": "iWebradio_HR_Info",
+    "label": "HR Info"
+  },
+  {
+    "itemname": "iWebradio_You_FM",
+    "label": "You FM"
+  },
+  {
+    "itemname": "iWebradio_Hit_Radio_FFH",
+    "label": "Hit Radio FFH"
+  },
+  {
+    "itemname": "iWebradio_FFHPlus_80er",
+    "label": "FFHPlus 80er"
+  },
+  {
+    "itemname": "iWebradio_FFHPlus_90er",
+    "label": "FFHPlus 90er"
+  },
+  {
+    "itemname": "iWebradio_FFHPlus_Charts",
+    "label": "FFHPlus Charts"
+  },
+  {
+    "itemname": "iWebradio_FFHPlus_Rock",
+    "label": "FFHPlus Rock"
+  },
+  {
+    "itemname": "iWebradio_FFH_Fruehlings_Feeling",
+    "label": "FFH Fruehlings Feeling"
+  },
+  {
+    "itemname": "iWebradio_FFH_Happy_Hits",
+    "label": "FFH Happy Hits"
+  },
+  {
+    "itemname": "iWebradio_FFH_Chill_And_Grill",
+    "label": "FFH Chill And Grill"
+  },
+  {
+    "itemname": "iWebradio_FFH_Leider_Geil",
+    "label": "FFH Leider Geil"
+  },
+  {
+    "itemname": "iWebradio_FFH_Kuschelrock",
+    "label": "FFH Kuschelrock"
+  },
+  {
+    "itemname": "iWebradio_FFH_Kuschelpop",
+    "label": "FFH Kuschelpop"
+  },
+  {
+    "itemname": "iWebradio_FFH_Just_White",
+    "label": "FFH Just White"
+  },
+  {
+    "itemname": "iWebradio_FFH_Top1000",
+    "label": "FFH Top1000"
+  },
+  {
+    "itemname": "iWebradio_FFH_Oldies",
+    "label": "FFH Oldies"
+  },
+  {
+    "itemname": "iWebradio_FFH_Top40",
+    "label": "FFH Top40"
+  },
+  {
+    "itemname": "iWebradio_FFH_Party",
+    "label": "FFH Party"
+  },
+  {
+    "itemname": "iWebradio_FFH_Best_of_2022",
+    "label": "FFH Best of 2022"
+  },
+  {
+    "itemname": "iWebradio_FFH_Die_80er",
+    "label": "FFH Die 80er"
+  },
+  {
+    "itemname": "iWebradio_FFH_Just_90s",
+    "label": "FFH Just 90s"
+  },
+  {
+    "itemname": "iWebradio_FFH_Die_2000er",
+    "label": "FFH Die 2000er"
+  },
+  {
+    "itemname": "iWebradio_FFH_Die_2010er",
+    "label": "FFH Die 2010er"
+  },
+  {
+    "itemname": "iWebradio_FFH_Summer_Feeling",
+    "label": "FFH Summer Feeling"
+  },
+  {
+    "itemname": "iWebradio_FFH_Eurodance",
+    "label": "FFH Eurodance"
+  },
+  {
+    "itemname": "iWebradio_FFH_Rock",
+    "label": "FFH Rock"
+  },
+  {
+    "itemname": "iWebradio_FFH_Workout",
+    "label": "FFH Workout"
+  },
+  {
+    "itemname": "iWebradio_FFH_Schlagerkult",
+    "label": "FFH Schlagerkult"
+  },
+  {
+    "itemname": "iWebradio_FFH_Deutsch_Pur",
+    "label": "FFH Deutsch Pur"
+  },
+  {
+    "itemname": "iWebradio_FFH_Brandneu",
+    "label": "FFH Brandneu"
+  },
+  {
+    "itemname": "iWebradio_FFH_Lounge",
+    "label": "FFH Lounge"
+  },
+  {
+    "itemname": "iWebradio_FFH_Acoustic_Hits",
+    "label": "FFH Acoustic Hits"
+  },
+  {
+    "itemname": "iWebradio_FFH_Soundtrack",
+    "label": "FFH Soundtrack"
+  },
+  {
+    "itemname": "iWebradio_FFHPlus_Weihnachten",
+    "label": "FFHPlus Weihnachten"
+  },
+  {
+    "itemname": "iWebradio_FFH_Weihnachtsradio",
+    "label": "FFH Weihnachtsradio"
+  },
+  {
+    "itemname": "iWebradio_JAM_FM",
+    "label": "JAM FM"
+  },
+  {
+    "itemname": "iWebradio_JAM_FM_90er",
+    "label": "JAM FM 90er"
+  },
+  {
+    "itemname": "iWebradio_JAM_FM_2000er",
+    "label": "JAM FM 2000er"
+  },
+  {
+    "itemname": "iWebradio_JAM_FM_2010er",
+    "label": "JAM FM 2010er"
+  },
+  {
+    "itemname": "iWebradio_JAM_FM_Charts",
+    "label": "JAM FM Charts"
+  },
+  {
+    "itemname": "iWebradio_JAM_FM_NMR",
+    "label": "JAM FM NMR"
+  },
+  {
+    "itemname": "iWebradio_JAM_FM_BL",
+    "label": "JAM FM BL"
+  },
+  {
+    "itemname": "iWebradio_JAM_FM_Elektro",
+    "label": "JAM FM Elektro"
+  },
+  {
+    "itemname": "iWebradio_JAM_FM_Rap",
+    "label": "JAM FM Rap"
+  },
+  {
+    "itemname": "iWebradio_JAM_FM_Deutschrap",
+    "label": "JAM FM Deutschrap"
+  },
+  {
+    "itemname": "iWebradio_JAM_FM_Party",
+    "label": "JAM FM Party"
+  },
+  {
+    "itemname": "iWebradio_Hitradio_RT1_Augsburg",
+    "label": "Hitradio RT1 Augsburg"
+  },
+  {
+    "itemname": "iWebradio_Hitradio_RT1_Neuburg_an_der_Donau_Schrobenhausen",
+    "label": "Hitradio RT1 Neuburg an der Donau Schrobenhausen"
+  },
+  {
+    "itemname": "iWebradio_Hitradio_RT1_Nordschwaben_Donauwoerth",
+    "label": "Hitradio RT1 Nordschwaben Donauwoerth"
+  },
+  {
+    "itemname": "iWebradio_Hitradio_RT1_Memmingen_Unterallgaeu",
+    "label": "Hitradio RT1 Memmingen Unterallgaeu"
+  },
+  {
+    "itemname": "iWebradio_Hitradio_RT1_2000er",
+    "label": "Hitradio RT1 2000er"
+  },
+  {
+    "itemname": "iWebradio_Hitradio_RT1_80er",
+    "label": "Hitradio RT1 80er"
+  },
+  {
+    "itemname": "iWebradio_Hitradio_RT1_90er",
+    "label": "Hitradio RT1 90er"
+  },
+  {
+    "itemname": "iWebradio_Hitradio_RT1_Black",
+    "label": "Hitradio RT1 Black"
+  },
+  {
+    "itemname": "iWebradio_Hitradio_RT1_Clubbing",
+    "label": "Hitradio RT1 Clubbing"
+  },
+  {
+    "itemname": "iWebradio_Hitradio_RT1_Dance_Party",
+    "label": "Hitradio RT1 Dance Party"
+  },
+  {
+    "itemname": "iWebradio_Hitradio_RT1_Deutsche_Hits",
+    "label": "Hitradio RT1 Deutsche Hits"
+  },
+  {
+    "itemname": "iWebradio_Hitradio_RT1_Eurodance",
+    "label": "Hitradio RT1 Eurodance"
+  },
+  {
+    "itemname": "iWebradio_Hitradio_RT1_Funk",
+    "label": "Hitradio RT1 Funk"
+  },
+  {
+    "itemname": "iWebradio_Hitradio_RT1_In_The_Mix",
+    "label": "Hitradio RT1 In The Mix"
+  },
+  {
+    "itemname": "iWebradio_Hitradio_RT1_Lounge",
+    "label": "Hitradio RT1 Lounge"
+  },
+  {
+    "itemname": "iWebradio_Hitradio_RT1_Oldies",
+    "label": "Hitradio RT1 Oldies"
+  },
+  {
+    "itemname": "iWebradio_Hitradio_RT1_Power_Workout",
+    "label": "Hitradio RT1 Power Workout"
+  },
+  {
+    "itemname": "iWebradio_Hitradio_RT1_Relax",
+    "label": "Hitradio RT1 Relax"
+  },
+  {
+    "itemname": "iWebradio_Hitradio_RT1_Rock",
+    "label": "Hitradio RT1 Rock"
+  },
+  {
+    "itemname": "iWebradio_Hitradio_RT1_Xmas",
+    "label": "Hitradio RT1 Xmas"
+  },
+  {
+    "itemname": "iWebradio_Hitradio_RT1_Soundtrack",
+    "label": "Hitradio RT1 Soundtrack"
+  },
+  {
+    "itemname": "iWebradio_Hitradio_RT1_Coffee",
+    "label": "Hitradio RT1 Coffee"
+  },
+  {
+    "itemname": "iWebradio_Hitradio_RT1_Running",
+    "label": "Hitradio RT1 Running"
+  },
+  {
+    "itemname": "iWebradio_Hitradio_RT1_Dinner_and_Cocktail_Hits",
+    "label": "Hitradio RT1 Dinner and Cocktail Hits"
+  },
+  {
+    "itemname": "iWebradio_MDR_Aktuell",
+    "label": "MDR Aktuell"
+  },
+  {
+    "itemname": "iWebradio_MDR_JUMP",
+    "label": "MDR JUMP"
+  },
+  {
+    "itemname": "iWebradio_MDR_KLASSIK",
+    "label": "MDR KLASSIK"
+  },
+  {
+    "itemname": "iWebradio_MDR_KULTUR",
+    "label": "MDR KULTUR"
+  },
+  {
+    "itemname": "iWebradio_MDR_Sachsen",
+    "label": "MDR Sachsen"
+  },
+  {
+    "itemname": "iWebradio_MDR_Sachsen_Sorbisches_Programm",
+    "label": "MDR Sachsen Sorbisches Programm"
+  },
+  {
+    "itemname": "iWebradio_MDR_SachsenAnhalt",
+    "label": "MDR SachsenAnhalt"
+  },
+  {
+    "itemname": "iWebradio_MDR_Schlagerwelt_Sachsen",
+    "label": "MDR Schlagerwelt Sachsen"
+  },
+  {
+    "itemname": "iWebradio_MDR_Sputnik",
+    "label": "MDR Sputnik"
+  },
+  {
+    "itemname": "iWebradio_MDR_Thueringen",
+    "label": "MDR Thueringen"
+  },
+  {
+    "itemname": "iWebradio_MDR_Tweens",
+    "label": "MDR Tweens"
+  },
+  {
+    "itemname": "iWebradio_NDR1_Niedersachsen_Hannover",
+    "label": "NDR1 Niedersachsen Hannover"
+  },
+  {
+    "itemname": "iWebradio_NDR1_Niedersachsen_Braunschweig",
+    "label": "NDR1 Niedersachsen Braunschweig"
+  },
+  {
+    "itemname": "iWebradio_NDR1_Niedersachsen_Lueneburg",
+    "label": "NDR1 Niedersachsen Lueneburg"
+  },
+  {
+    "itemname": "iWebradio_NDR1_Niedersachsen_Oldenburg",
+    "label": "NDR1 Niedersachsen Oldenburg"
+  },
+  {
+    "itemname": "iWebradio_NDR1_Niedersachsen_Osnarbrueck",
+    "label": "NDR1 Niedersachsen Osnarbrueck"
+  },
+  {
+    "itemname": "iWebradio_NDR1_MecklenburgVorpommern_Schwerin",
+    "label": "NDR1 MecklenburgVorpommern Schwerin"
+  },
+  {
+    "itemname": "iWebradio_NDR1_MecklenburgVorpommern_Greifswald",
+    "label": "NDR1 MecklenburgVorpommern Greifswald"
+  },
+  {
+    "itemname": "iWebradio_NDR1_MecklenburgVorpommern_Rostock",
+    "label": "NDR1 MecklenburgVorpommern Rostock"
+  },
+  {
+    "itemname": "iWebradio_NDR1_MecklenburgVorpommern_Neubrandenburg",
+    "label": "NDR1 MecklenburgVorpommern Neubrandenburg"
+  },
+  {
+    "itemname": "iWebradio_NDR_90_3",
+    "label": "NDR 90 3"
+  },
+  {
+    "itemname": "iWebradio_NDR1_Welle_Nord_Kiel",
+    "label": "NDR1 Welle Nord Kiel"
+  },
+  {
+    "itemname": "iWebradio_NDR1_Welle_Nord_Flensburg",
+    "label": "NDR1 Welle Nord Flensburg"
+  },
+  {
+    "itemname": "iWebradio_NDR1_Welle_Nord_Heide",
+    "label": "NDR1 Welle Nord Heide"
+  },
+  {
+    "itemname": "iWebradio_NDR1_Welle_Nord_Luebeck",
+    "label": "NDR1 Welle Nord Luebeck"
+  },
+  {
+    "itemname": "iWebradio_NDR1_Welle_Nord_Norderstedt",
+    "label": "NDR1 Welle Nord Norderstedt"
+  },
+  {
+    "itemname": "iWebradio_NDR2_Niedersachsen",
+    "label": "NDR2 Niedersachsen"
+  },
+  {
+    "itemname": "iWebradio_NDR2_Hamburg",
+    "label": "NDR2 Hamburg"
+  },
+  {
+    "itemname": "iWebradio_NDR2_MecklenburgVorpommern",
+    "label": "NDR2 MecklenburgVorpommern"
+  },
+  {
+    "itemname": "iWebradio_NDR2_SchleswigHolstein",
+    "label": "NDR2 SchleswigHolstein"
+  },
+  {
+    "itemname": "iWebradio_NDR_Kultur",
+    "label": "NDR Kultur"
+  },
+  {
+    "itemname": "iWebradio_NDR_Info_Niedersachsen",
+    "label": "NDR Info Niedersachsen"
+  },
+  {
+    "itemname": "iWebradio_NDR_Info_Hamburg",
+    "label": "NDR Info Hamburg"
+  },
+  {
+    "itemname": "iWebradio_NDR_Info_MecklenburgVorpommern",
+    "label": "NDR Info MecklenburgVorpommern"
+  },
+  {
+    "itemname": "iWebradio_NDR_Info_SchleswigHolstein",
+    "label": "NDR Info SchleswigHolstein"
+  },
+  {
+    "itemname": "iWebradio_NDR_Info_Spezial",
+    "label": "NDR Info Spezial"
+  },
+  {
+    "itemname": "iWebradio_NJoy",
+    "label": "NJoy"
+  },
+  {
+    "itemname": "iWebradio_NDR_Blue",
+    "label": "NDR Blue"
+  },
+  {
+    "itemname": "iWebradio_NDR_Schlager",
+    "label": "NDR Schlager"
+  },
+  {
+    "itemname": "iWebradio_SWR1_BW",
+    "label": "SWR1 BW"
+  },
+  {
+    "itemname": "iWebradio_SWR1_RP",
+    "label": "SWR1 RP"
+  },
+  {
+    "itemname": "iWebradio_SWR2",
+    "label": "SWR2"
+  },
+  {
+    "itemname": "iWebradio_SWR3",
+    "label": "SWR3"
+  },
+  {
+    "itemname": "iWebradio_SWR3_Rock",
+    "label": "SWR3 Rock"
+  },
+  {
+    "itemname": "iWebradio_SWR3_Party",
+    "label": "SWR3 Party"
+  },
+  {
+    "itemname": "iWebradio_SWR3_Mottotage",
+    "label": "SWR3 Mottotage"
+  },
+  {
+    "itemname": "iWebradio_SWR3_Specials",
+    "label": "SWR3 Specials"
+  },
+  {
+    "itemname": "iWebradio_SWR_Aktuell",
+    "label": "SWR Aktuell"
+  },
+  {
+    "itemname": "iWebradio_DASDING",
+    "label": "DASDING"
+  },
+  {
+    "itemname": "iWebradio_SWR4_BW",
+    "label": "SWR4 BW"
+  },
+  {
+    "itemname": "iWebradio_SWR4_RP",
+    "label": "SWR4 RP"
+  },
+  {
+    "itemname": "iWebradio_Ostseewelle_Hit_Radio_MecklenburgVorpommern_80er",
+    "label": "Ostseewelle Hit Radio MecklenburgVorpommern 80er"
+  },
+  {
+    "itemname": "iWebradio_Ostseewelle_Hit_Radio_MecklenburgVorpommern_90er",
+    "label": "Ostseewelle Hit Radio MecklenburgVorpommern 90er"
+  },
+  {
+    "itemname": "iWebradio_R_SA_Sachsen",
+    "label": "R.SA Sachsen"
+  },
+  {
+    "itemname": "iWebradio_R_SA_Sachsen_Beatles_Stream",
+    "label": "R.SA Sachsen Beatles Stream"
+  },
+  {
+    "itemname": "iWebradio_R_SA_Sachsen_Hinhoerkanal",
+    "label": "R.SA Sachsen Hinhoerkanal"
+  },
+  {
+    "itemname": "iWebradio_R_SA_Sachsen_Ostrock_Stream",
+    "label": "R.SA Sachsen Ostrock Stream"
+  },
+  {
+    "itemname": "iWebradio_R_SA_Sachsen_Rockzirkus",
+    "label": "R.SA Sachsen Rockzirkus"
+  },
+  {
+    "itemname": "iWebradio_R_SA_Sachsen_OldieClub",
+    "label": "R.SA Sachsen OldieClub"
+  },
+  {
+    "itemname": "iWebradio_R_SA_Sachsen_Maxis_Maximal",
+    "label": "R.SA Sachsen Maxis Maximal"
+  },
+  {
+    "itemname": "iWebradio_R_SA_Sachsen_Partywelle",
+    "label": "R.SA Sachsen Partywelle"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bob",
+    "label": "Radio Bob"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bob_Event_100",
+    "label": "Radio Bob Event 100"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bob_Event_101",
+    "label": "Radio Bob Event 101"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bob_80er_Rock",
+    "label": "Radio Bob 80er Rock"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bob_90er_Rock",
+    "label": "Radio Bob 90er Rock"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bob_ACDC_Collection",
+    "label": "Radio Bob ACDC Collection"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bob_Alternative_Rock",
+    "label": "Radio Bob Alternative Rock"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bob_Best_of_Rock",
+    "label": "Radio Bob Best of Rock"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bob_Chillout_Unplugged",
+    "label": "Radio Bob Chillout Unplugged"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bob_Christmas_Rock",
+    "label": "Radio Bob Christmas Rock"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bob_Classic_Rock",
+    "label": "Radio Bob Classic Rock"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bob_Deutsch_Rock",
+    "label": "Radio Bob Deutsch Rock"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bob_Festival_Stream",
+    "label": "Radio Bob Festival Stream"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bob_Grunge",
+    "label": "Radio Bob Grunge"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bob_Hardrock",
+    "label": "Radio Bob Hardrock"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bob_Harte_Saite",
+    "label": "Radio Bob Harte Saite"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bob_Kuschelrock",
+    "label": "Radio Bob Kuschelrock"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bob_Metal",
+    "label": "Radio Bob Metal"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bob_National",
+    "label": "Radio Bob National"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bob_Punk",
+    "label": "Radio Bob Punk"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bob_Queen",
+    "label": "Radio Bob Queen"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bob_Rockabilly",
+    "label": "Radio Bob Rockabilly"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bob_Rock_Hits",
+    "label": "Radio Bob Rock Hits"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bob_rockt_SchleswigHolstein",
+    "label": "Radio Bob rockt SchleswigHolstein"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bob_Singer_and_Songwriter",
+    "label": "Radio Bob Singer and Songwriter"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bob_Wacken_Nonstop",
+    "label": "Radio Bob Wacken Nonstop"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bob_BossHoss_Rockshow",
+    "label": "Radio Bob BossHoss Rockshow"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bob_Death_Metal",
+    "label": "Radio Bob Death Metal"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bob_Fury_in_the_Slaughterhouse",
+    "label": "Radio Bob Fury in the Slaughterhouse"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bob_Gothic_Rock",
+    "label": "Radio Bob Gothic Rock"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bob_Metalcore",
+    "label": "Radio Bob Metalcore"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bob_Metallica",
+    "label": "Radio Bob Metallica"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bob_Mittelalter_Rock",
+    "label": "Radio Bob Mittelalter Rock"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bob_Newcomer",
+    "label": "Radio Bob Newcomer"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bob_Dunkle_Parabel_Ritter",
+    "label": "Radio Bob Dunkle Parabel Ritter"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bob_Rockparty",
+    "label": "Radio Bob Rockparty"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bob_Tobias_Sammet",
+    "label": "Radio Bob Tobias Sammet"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bob_Southern_Rock",
+    "label": "Radio Bob Southern Rock"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bob_Symphonic_Metal",
+    "label": "Radio Bob Symphonic Metal"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bob_Livestream",
+    "label": "Radio Bob Livestream"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bob_Livestream_Hessen_Mitte",
+    "label": "Radio Bob Livestream Hessen Mitte"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bob_Livestream_National_Mitte",
+    "label": "Radio Bob Livestream National Mitte"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bob_Livestream_NRW",
+    "label": "Radio Bob Livestream NRW"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bob_Livestream_SH_Mitte",
+    "label": "Radio Bob Livestream SH Mitte"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bob_Livestream_SH_Nordwest",
+    "label": "Radio Bob Livestream SH Nordwest"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bob_Livestream_SH_Ost",
+    "label": "Radio Bob Livestream SH Ost"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bob_Livestream_SH_Sued",
+    "label": "Radio Bob Livestream SH Sued"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bremen_Eins",
+    "label": "Radio Bremen Eins"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bremen_Zwei",
+    "label": "Radio Bremen Zwei"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bremen_Vier",
+    "label": "Radio Bremen Vier"
+  },
+  {
+    "itemname": "iWebradio_Radio_Bremen_Next",
+    "label": "Radio Bremen Next"
+  },
+  {
+    "itemname": "iWebradio_Radio_Charivari_Muenchen",
+    "label": "Radio Charivari Muenchen"
+  },
+  {
+    "itemname": "iWebradio_Radio_Lausitz",
+    "label": "Radio Lausitz"
+  },
+  {
+    "itemname": "iWebradio_Radio_Lausitz_Xmas",
+    "label": "Radio Lausitz Xmas"
+  },
+  {
+    "itemname": "iWebradio_Radio_Lausitz_80er",
+    "label": "Radio Lausitz 80er"
+  },
+  {
+    "itemname": "iWebradio_Radio_Lausitz_90er",
+    "label": "Radio Lausitz 90er"
+  },
+  {
+    "itemname": "iWebradio_Antenne_AC",
+    "label": "Antenne AC"
+  },
+  {
+    "itemname": "iWebradio_NE_WS",
+    "label": "NE WS"
+  },
+  {
+    "itemname": "iWebradio_Radio_Koeln",
+    "label": "Radio Koeln"
+  },
+  {
+    "itemname": "iWebradio_Rock_Antenne_Alternative",
+    "label": "Rock Antenne Alternative"
+  },
+  {
+    "itemname": "iWebradio_Rock_Antenne_Classic_Perlen",
+    "label": "Rock Antenne Classic Perlen"
+  },
+  {
+    "itemname": "iWebradio_Rock_Antenne_Heavy_Metal",
+    "label": "Rock Antenne Heavy Metal"
+  },
+  {
+    "itemname": "iWebradio_rbb_Antenne_Brandenburg",
+    "label": "rbb Antenne Brandenburg"
+  },
+  {
+    "itemname": "iWebradio_rbb_88_8_Berlin",
+    "label": "rbb 88 8 Berlin"
+  },
+  {
+    "itemname": "iWebradio_rbb_Fritz",
+    "label": "rbb Fritz"
+  },
+  {
+    "itemname": "iWebradio_rbb_24_Inforadio",
+    "label": "rbb 24 Inforadio"
+  },
+  {
+    "itemname": "iWebradio_rbb_Kultur",
+    "label": "rbb Kultur"
+  },
+  {
+    "itemname": "iWebradio_Sunshine_Live",
+    "label": "Sunshine Live"
+  },
+  {
+    "itemname": "iWebradio_Sunshine_Live_House",
+    "label": "Sunshine Live House"
+  },
+  {
+    "itemname": "iWebradio_Sunshine_Live_EDM",
+    "label": "Sunshine Live EDM"
+  },
+  {
+    "itemname": "iWebradio_Sunshine_Live_Classics",
+    "label": "Sunshine Live Classics"
+  },
+  {
+    "itemname": "iWebradio_Sunshine_Live_Trance",
+    "label": "Sunshine Live Trance"
+  },
+  {
+    "itemname": "iWebradio_Sunshine_Live_Hard",
+    "label": "Sunshine Live Hard"
+  },
+  {
+    "itemname": "iWebradio_Sunshine_Live_Techno",
+    "label": "Sunshine Live Techno"
+  },
+  {
+    "itemname": "iWebradio_Sunshine_Live_Lounge",
+    "label": "Sunshine Live Lounge"
+  },
+  {
+    "itemname": "iWebradio_Sunshine_Live_90er",
+    "label": "Sunshine Live 90er"
+  },
+  {
+    "itemname": "iWebradio_Sunshine_Live_Festival",
+    "label": "Sunshine Live Festival"
+  },
+  {
+    "itemname": "iWebradio_Sunshine_Live_DNB",
+    "label": "Sunshine Live DNB"
+  },
+  {
+    "itemname": "iWebradio_Sunshine_Live_Handsup",
+    "label": "Sunshine Live Handsup"
+  },
+  {
+    "itemname": "iWebradio_Sunshine_Live_Mayday",
+    "label": "Sunshine Live Mayday"
+  },
+  {
+    "itemname": "iWebradio_Sunshine_Live_Natureone",
+    "label": "Sunshine Live Natureone"
+  },
+  {
+    "itemname": "iWebradio_Sunshine_Live_Timewarp",
+    "label": "Sunshine Live Timewarp"
+  },
+  {
+    "itemname": "iWebradio_Sunshine_Live_Relax",
+    "label": "Sunshine Live Relax"
+  },
+  {
+    "itemname": "iWebradio_Sunshine_Live_80er",
+    "label": "Sunshine Live 80er"
+  },
+  {
+    "itemname": "iWebradio_Sunshine_Live_2000er",
+    "label": "Sunshine Live 2000er"
+  },
+  {
+    "itemname": "iWebradio_Sunshine_Live_Chillout",
+    "label": "Sunshine Live Chillout"
+  },
+  {
+    "itemname": "iWebradio_Sunshine_Live_Summer_Beats",
+    "label": "Sunshine Live Summer Beats"
+  },
+  {
+    "itemname": "iWebradio_Sunshine_Live_Tech_House",
+    "label": "Sunshine Live Tech House"
+  },
+  {
+    "itemname": "iWebradio_Sunshine_Live_90s_Anthems",
+    "label": "Sunshine Live 90s Anthems"
+  },
+  {
+    "itemname": "iWebradio_Sunshine_Live_Charts",
+    "label": "Sunshine Live Charts"
+  },
+  {
+    "itemname": "iWebradio_Sunshine_Live_Afterhour",
+    "label": "Sunshine Live Afterhour"
+  },
+  {
+    "itemname": "iWebradio_Sunshine_Live_Avicii",
+    "label": "Sunshine Live Avicii"
+  },
+  {
+    "itemname": "iWebradio_Sunshine_Live_Vocalhouse",
+    "label": "Sunshine Live Vocalhouse"
+  },
+  {
+    "itemname": "iWebradio_Sunshine_Live_Tropicalhouse",
+    "label": "Sunshine Live Tropicalhouse"
+  },
+  {
+    "itemname": "iWebradio_Sunshine_Live_Pride",
+    "label": "Sunshine Live Pride"
+  },
+  {
+    "itemname": "iWebradio_Sunshine_Live_Prodigy",
+    "label": "Sunshine Live Prodigy"
+  },
+  {
+    "itemname": "iWebradio_Sunshine_Live_Focus",
+    "label": "Sunshine Live Focus"
+  },
+  {
+    "itemname": "iWebradio_Sunshine_Live_Winter_Chill",
+    "label": "Sunshine Live Winter Chill"
+  },
+  {
+    "itemname": "iWebradio_Sunshine_Live_I_am_raving",
+    "label": "Sunshine Live I am raving"
+  },
+  {
+    "itemname": "iWebradio_Sunshine_Live_Techno_Queens",
+    "label": "Sunshine Live Techno Queens"
+  },
+  {
+    "itemname": "iWebradio_Sunshine_Live_Depeche_Mode",
+    "label": "Sunshine Live Depeche Mode"
+  },
+  {
+    "itemname": "iWebradio_Sunshine_Live_Melodic_Beats",
+    "label": "Sunshine Live Melodic Beats"
+  },
+  {
+    "itemname": "iWebradio_Sunshine_Live_Bunker",
+    "label": "Sunshine Live Bunker"
+  },
+  {
+    "itemname": "iWebradio_Sunshine_Live_Psytrance",
+    "label": "Sunshine Live Psytrance"
+  },
+  {
+    "itemname": "iWebradio_Sunshine_Live_Ibiza",
+    "label": "Sunshine Live Ibiza"
+  },
+  {
+    "itemname": "iWebradio_Sunshine_Live_Twenty",
+    "label": "Sunshine Live Twenty"
+  },
+  {
+    "itemname": "iWebradio_Sunshine_Live_Eurodance",
+    "label": "Sunshine Live Eurodance"
+  },
+  {
+    "itemname": "iWebradio_Sunshine_Live_Remix",
+    "label": "Sunshine Live Remix"
+  },
+  {
+    "itemname": "iWebradio_Sunshine_Live_Melodic_Techno",
+    "label": "Sunshine Live Melodic Techno"
+  },
+  {
+    "itemname": "iWebradio_Sunshine_Live_Gaming",
+    "label": "Sunshine Live Gaming"
+  },
+  {
+    "itemname": "iWebradio_Sunshine_Live_Party",
+    "label": "Sunshine Live Party"
+  },
+  {
+    "itemname": "iWebradio_Sunshine_Live_Clubsound_Berlin",
+    "label": "Sunshine Live Clubsound Berlin"
+  },
+  {
+    "itemname": "iWebradio_Sunshine_Live_Workout",
+    "label": "Sunshine Live Workout"
+  },
+  {
+    "itemname": "iWebradio_Sunshine_Live_Futurebass",
+    "label": "Sunshine Live Futurebass"
+  },
+  {
+    "itemname": "iWebradio_Sunshine_Live_Newhits",
+    "label": "Sunshine Live Newhits"
+  },
+  {
+    "itemname": "iWebradio_Sunshine_Live_Love",
+    "label": "Sunshine Live Love"
+  },
+  {
+    "itemname": "iWebradio_Sunshine_Live_Backstage",
+    "label": "Sunshine Live Backstage"
+  },
+  {
+    "itemname": "iWebradio_SR1",
+    "label": "SR1"
+  },
+  {
+    "itemname": "iWebradio_SR1_LikeOMat",
+    "label": "SR1 LikeOMat"
+  },
+  {
+    "itemname": "iWebradio_SR1_Lounge",
+    "label": "SR1 Lounge"
+  },
+  {
+    "itemname": "iWebradio_SR2",
+    "label": "SR2"
+  },
+  {
+    "itemname": "iWebradio_SR2_Offbeat",
+    "label": "SR2 Offbeat"
+  },
+  {
+    "itemname": "iWebradio_SR3",
+    "label": "SR3"
+  },
+  {
+    "itemname": "iWebradio_SR3_Oldiewelt",
+    "label": "SR3 Oldiewelt"
+  },
+  {
+    "itemname": "iWebradio_SR3_Schlagerwelt",
+    "label": "SR3 Schlagerwelt"
+  },
+  {
+    "itemname": "iWebradio_Antenne_Saar",
+    "label": "Antenne Saar"
+  },
+  {
+    "itemname": "iWebradio_Unser_Ding",
+    "label": "Unser Ding"
+  },
+  {
+    "itemname": "iWebradio_Unser_Ding_Schwarz",
+    "label": "Unser Ding Schwarz"
+  },
+  {
+    "itemname": "iWebradio_Unser_Ding_Zukunft",
+    "label": "Unser Ding Zukunft"
+  },
+  {
+    "itemname": "iWebradio_1LIVE",
+    "label": "1LIVE"
+  },
+  {
+    "itemname": "iWebradio_1LIVE_diggi",
+    "label": "1LIVE diggi"
+  },
+  {
+    "itemname": "iWebradio_1LIVE_Plan_B",
+    "label": "1LIVE Plan B"
+  },
+  {
+    "itemname": "iWebradio_1LIVE_DJ_Session",
+    "label": "1LIVE DJ Session"
+  },
+  {
+    "itemname": "iWebradio_1LIVE_Neu_fuer_den_Sektor",
+    "label": "1LIVE Neu fuer den Sektor"
+  },
+  {
+    "itemname": "iWebradio_1LIVE_HipHop",
+    "label": "1LIVE HipHop"
+  },
+  {
+    "itemname": "iWebradio_1LIVE_Specials",
+    "label": "1LIVE Specials"
+  },
+  {
+    "itemname": "iWebradio_1LIVE_Klubbing",
+    "label": "1LIVE Klubbing"
+  },
+  {
+    "itemname": "iWebradio_1LIVE_Kassettendeck",
+    "label": "1LIVE Kassettendeck"
+  },
+  {
+    "itemname": "iWebradio_1LIVE_FIEHE",
+    "label": "1LIVE FIEHE"
+  },
+  {
+    "itemname": "iWebradio_WDR2_Rheinland",
+    "label": "WDR2 Rheinland"
+  },
+  {
+    "itemname": "iWebradio_WDR2_Ostwestfalen",
+    "label": "WDR2 Ostwestfalen"
+  },
+  {
+    "itemname": "iWebradio_WDR2_Muensterland",
+    "label": "WDR2 Muensterland"
+  },
+  {
+    "itemname": "iWebradio_WDR2_Ruhrgebiet",
+    "label": "WDR2 Ruhrgebiet"
+  },
+  {
+    "itemname": "iWebradio_WDR2_Bergisches_Land",
+    "label": "WDR2 Bergisches Land"
+  },
+  {
+    "itemname": "iWebradio_WDR2_Suedwestfalen",
+    "label": "WDR2 Suedwestfalen"
+  },
+  {
+    "itemname": "iWebradio_WDR2_Aachen",
+    "label": "WDR2 Aachen"
+  },
+  {
+    "itemname": "iWebradio_WDR3",
+    "label": "WDR3"
+  },
+  {
+    "itemname": "iWebradio_WDR3_HQ",
+    "label": "WDR3 HQ"
+  },
+  {
+    "itemname": "iWebradio_WDR4",
+    "label": "WDR4"
+  },
+  {
+    "itemname": "iWebradio_WDR5",
+    "label": "WDR5"
+  },
+  {
+    "itemname": "iWebradio_WDR_Event",
+    "label": "WDR Event"
+  },
+  {
+    "itemname": "iWebradio_COSMO",
+    "label": "COSMO"
+  },
+  {
+    "itemname": "iWebradio_WDR_Die_Maus",
+    "label": "WDR Die Maus"
+  }
+]

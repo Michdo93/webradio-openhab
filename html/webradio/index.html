@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:,">
+    <title>WebRadio</title>
+    <style>
+        :root {
+            --bg-color: #121212;
+            --card-bg: #1e1e1e;
+            --accent-color: #1db954;
+            --text-color: #ffffff;
+            --text-muted: #b3b3b3;
+            --error-color: #e91429;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .radio-container {
+            background-color: var(--card-bg);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+            position: relative;
+            box-sizing: border-box;
+            margin: 15px;
+        }
+
+        h1 {
+            font-size: 1.2rem;
+            color: var(--text-muted);
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+        }
+
+        :focus-visible {
+            outline: 2px solid var(--accent-color);
+            outline-offset: 2px;
+        }
+
+        .current-station-trigger {
+            background: #282828;
+            border: 2px solid #333;
+            border-radius: 10px;
+            padding: 20px;
+            font-size: 1.3rem;
+            color: var(--accent-color);
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .current-station-trigger.idle { color: var(--text-muted); }
+
+        .current-station-trigger:hover {
+            background: #333;
+            border-color: var(--accent-color);
+        }
+
+        .current-station-trigger::after {
+            content: '▾';
+            font-size: 1rem;
+            color: var(--text-muted);
+        }
+
+        .status-msg {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            min-height: 20px;
+            margin-bottom: 25px;
+        }
+
+        .status-msg.error {
+            color: var(--error-color);
+            font-weight: bold;
+        }
+
+        .controls {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+
+        button.control-btn {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 14px 28px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 1rem;
+            min-width: 110px;
+            transition: all 0.2s ease;
+        }
+
+        button.control-btn:hover { transform: scale(1.05); }
+        button.control-btn.on { background-color: var(--accent-color); }
+        #muteBtn.on { background-color: var(--error-color); }
+
+        .volume-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        input[type="range"] {
+            accent-color: var(--accent-color);
+            width: 55%;
+            cursor: pointer;
+        }
+
+        input[type="range"].muted { opacity: 0.4; }
+
+        .volume-value {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            min-width: 3em;
+            text-align: right;
+        }
+
+        /* OVERLAY / MODAL */
+        .modal-overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.85);
+            backdrop-filter: blur(5px);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s ease;
+            z-index: 100;
+        }
+
+        .modal-overlay.open {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        .modal-content {
+            background: var(--card-bg);
+            width: 90%;
+            max-width: 400px;
+            height: 80vh;
+            border-radius: 15px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            box-sizing: border-box;
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .modal-header h2 { margin: 0; font-size: 1.4rem; }
+
+        .station-count {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin-left: auto;
+            margin-right: 12px;
+        }
+
+        .close-btn {
+            background: none;
+            border: none;
+            color: var(--text-muted);
+            font-size: 1.8rem;
+            cursor: pointer;
+        }
+
+        .close-btn:hover { color: var(--text-color); }
+
+        .search-input {
+            width: 100%;
+            padding: 12px;
+            background: #282828;
+            border: 1px solid #444;
+            border-radius: 8px;
+            color: white;
+            font-size: 1rem;
+            box-sizing: border-box;
+            margin-bottom: 15px;
+        }
+
+        .search-input:focus { outline: 1px solid var(--accent-color); }
+
+        .station-list {
+            flex: 1;
+            overflow-y: auto;
+            text-align: left;
+            padding-right: 5px;
+        }
+
+        .station-item {
+            padding: 14px 10px;
+            border-bottom: 1px solid #282828;
+            cursor: pointer;
+            transition: background 0.2s;
+            border-radius: 5px;
+        }
+
+        .station-item:hover { background-color: #2a2a2a; }
+
+        .station-item.active {
+            color: var(--accent-color);
+            font-weight: bold;
+            background-color: #222;
+        }
+
+        .station-list::-webkit-scrollbar { width: 6px; }
+        .station-list::-webkit-scrollbar-thumb { background-color: #444; border-radius: 3px; }
+
+        /* Fehlermeldungen */
+        .toast {
+            position: fixed;
+            left: 50%;
+            bottom: 24px;
+            transform: translate(-50%, 20px);
+            background: #282828;
+            color: var(--text-color);
+            border-left: 4px solid var(--error-color);
+            padding: 10px 16px;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.25s ease, transform 0.25s ease;
+            z-index: 200;
+        }
+
+        .toast.show { opacity: 1; transform: translate(-50%, 0); }
+
+        @media (prefers-reduced-motion: reduce) {
+            * { transition: none !important; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="radio-container">
+    <h1 id="radioTitle">WebRadio</h1>
+
+    <div class="current-station-trigger idle" id="stationTrigger" role="button" tabindex="0" aria-haspopup="listbox">
+        Loading station...
+    </div>
+
+    <div class="status-msg" id="statusMsg" aria-live="polite">Ready</div>
+
+    <div class="controls">
+        <button class="control-btn" id="playBtn" aria-pressed="false">Play</button>
+        <button class="control-btn" id="muteBtn" aria-pressed="false">Mute</button>
+    </div>
+
+    <div class="volume-container">
+        <span aria-hidden="true">🔈</span>
+        <input type="range" id="volumeSlider" min="0" max="100" step="1" value="0" aria-label="Lautstärke">
+        <span aria-hidden="true">🔊</span>
+        <span class="volume-value" id="volumeValue">--</span>
+    </div>
+</div>
+
+<div class="modal-overlay" id="modalOverlay">
+    <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <div class="modal-header">
+            <h2 id="modalTitle">Select Station</h2>
+            <span class="station-count" id="stationCount"></span>
+            <button class="close-btn" id="closeBtn" aria-label="Close">&times;</button>
+        </div>
+
+        <input type="text" class="search-input" id="searchInput" placeholder="Search station..." autocomplete="off">
+
+        <div class="station-list" id="stationList" role="listbox"></div>
+    </div>
+</div>
+
+<div class="toast" id="toast" role="alert"></div>
+
+<!-- Order is important: Config -> Library -> Model -> View -> Controller -->
+<script src="config.js"></script>
+<script src="openhab.js"></script>
+<script src="model.js"></script>
+<script src="view.js"></script>
+<script src="controller.js"></script>
+</body>
+</html>

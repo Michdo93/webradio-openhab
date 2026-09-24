@@ -1,0 +1,10 @@
+Group Sonos <player>
+
+Player Sonos_Controller   "Controller"                          (Sonos) {channel="sonos:PLAY1:living:control"}
+Dimmer Sonos_Volume       "Volume [%.1f %%]" <soundvolume>      (Sonos) {channel="sonos:PLAY1:living:volume"}
+Switch Sonos_Mute         "Mute"             <soundvolume_mute> (Sonos) {channel="sonos:PLAY1:living:mute"}
+Switch Sonos_LED          "LED"              <switch>           (Sonos) {channel="sonos:PLAY1:living:led"}
+String Sonos_CurrentTrack "Now playing [%s]" <text>             (Sonos) {channel="sonos:PLAY1:living:currenttrack"}
+String Sonos_State        "Status [%s]"      <text>             (Sonos) {channel="sonos:PLAY1:living:state"}
+String Sonos_PlayUri      "Playing URI [%s]" <text>             (Sonos) {channel="sonos:PLAY1:living:playuri"}
+Switch PlayWebRadioUri
