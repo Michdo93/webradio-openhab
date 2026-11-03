@@ -78,9 +78,17 @@ class OpenHABClient {
   }
 
   _normalise(endpoint) {
-    if (!endpoint.startsWith("/")) endpoint = "/" + endpoint;
-    if (!endpoint.startsWith("/rest/")) endpoint = "/rest/" + endpoint;
-    return endpoint;
+      endpoint = String(endpoint).trim();
+
+      // Remove leading slashes.
+      endpoint = endpoint.replace(/^\/+/, "");
+
+      // Add /rest/ only if it is not already present.
+      if (endpoint !== "rest" && !endpoint.startsWith("rest/")) {
+          endpoint = "rest/" + endpoint;
+      }
+
+      return "/" + endpoint;
   }
 
   async _executeRequest(method, endpoint, headers = {}, data = null, params = null) {
